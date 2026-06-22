@@ -1,0 +1,21 @@
+Crop_Type,SOC,N_Content,P_Content,K_Content,pH,Fertilizer_Type,Fertilizer_Amount,Temperature,Rainfall,Humidity,Predicted_Carbon_Footprint,Sustainability_Level
+Rice,0.8,120,30,150,6.5,Urea,250.0,30.0,1200.0,80.0,1851.4,Low
+Rice,2.5,60,20,100,7.0,Ammonium Nitrate,200.0,26.0,1000.0,75.0,1647.6,Low
+Rice,4.5,40,10,80,6.0,None,0.0,22.0,900.0,70.0,881.9,Medium
+Rice,1.2,150,40,110,5.8,Organic,300.0,28.0,1100.0,82.0,1325.9,Low
+Corn,1.1,90,40,120,6.2,Urea,400.0,28.0,750.0,60.0,1350.2,Low
+Corn,3.2,80,35,100,6.8,NPK_15-15-15,220.0,24.0,800.0,65.0,400.5,Medium
+Corn,4.8,50,15,90,7.2,Organic,150.0,20.0,600.0,55.0,128.4,High
+Corn,2.0,110,50,130,5.2,Ammonium Nitrate,350.0,32.0,950.0,68.0,1359.1,Low
+Soybeans,3.8,30,25,80,6.4,None,0.0,24.0,650.0,58.0,-86.5,High
+Soybeans,1.5,40,30,70,6.6,Organic,80.0,22.0,700.0,62.0,195.9,High
+Soybeans,4.5,20,15,60,6.8,NPK_15-15-15,50.0,26.0,680.0,60.0,-84.2,High
+Soybeans,0.6,50,35,90,5.5,Urea,60.0,25.0,720.0,65.0,416.6,Medium
+Wheat,2.2,70,30,85,6.5,Ammonium Nitrate,180.0,18.0,500.0,50.0,636.6,Medium
+Wheat,4.1,50,20,75,7.0,Organic,120.0,15.0,450.0,45.0,-27.2,High
+Wheat,1.0,100,45,110,6.0,Urea,260.0,22.0,550.0,52.0,903.7,Medium
+Wheat,3.0,60,10,80,7.8,None,0.0,16.0,480.0,48.0,24.7,High
+Vegetables,2.8,80,50,140,6.3,NPK_15-15-15,300.0,22.0,850.0,70.0,528.7,Medium
+Vegetables,4.9,60,30,100,6.6,Organic,250.0,20.0,900.0,75.0,69.6,High
+Vegetables,0.7,120,60,150,5.6,Urea,280.0,26.0,750.0,68.0,1043.0,Medium
+Vegetables,3.5,50,25,90,6.8,None,0.0,18.0,600.0,60.0,13.2,High

@@ -1,0 +1,4205 @@
+[
+  {
+    "name": "District Soil Survy And Soil testing Lab Pune",
+    "state": "MAHARASHTRA",
+    "district": "PUNE",
+    "latitude": 18.53795465,
+    "longitude": 73.84356568,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "SOIL TESTING LABORATORY, Di. CHHOTAUDEPUR",
+    "state": "GUJARAT",
+    "district": "CHHOTAUDEPUR",
+    "latitude": 22.30715157,
+    "longitude": 74.0203017,
+    "timing_from": "10:30:00",
+    "timing_to": "18:10:00"
+  },
+  {
+    "name": "Dr Masrat Maqbool",
+    "state": "JAMMU AND KASHMIR",
+    "district": "GANDERBAL",
+    "latitude": 34.2841979,
+    "longitude": 74.8077098,
+    "timing_from": "22:00:00",
+    "timing_to": "16:30:00"
+  },
+  {
+    "name": "STL Ganderbal",
+    "state": "JAMMU AND KASHMIR",
+    "district": "GANDERBAL",
+    "latitude": 34.2339354,
+    "longitude": 74.7921091,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "VSTL BADAMPORA",
+    "state": "JAMMU AND KASHMIR",
+    "district": "GANDERBAL",
+    "latitude": 34.22951393,
+    "longitude": 74.69502287,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil And Water Testing Laboratory, Krishi Vidnyan",
+    "state": "MAHARASHTRA",
+    "district": "AMRAVATI",
+    "latitude": 20.91326796,
+    "longitude": 77.8683751,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "P-Square Agritech Soil & Water Testing Laboratory",
+    "state": "MAHARASHTRA",
+    "district": "AMRAVATI",
+    "latitude": 20.94615298,
+    "longitude": 77.77195919,
+    "timing_from": "11:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "Soil And Water Testing laboratory, KVK Durgapur, D",
+    "state": "MAHARASHTRA",
+    "district": "AMRAVATI",
+    "latitude": 20.84695818,
+    "longitude": 77.70415446,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "District Soil Survey Soil Testing Lab Amravati",
+    "state": "MAHARASHTRA",
+    "district": "AMRAVATI",
+    "latitude": 20.9417298,
+    "longitude": 77.7866084,
+    "timing_from": "09:45:00",
+    "timing_to": "18:15:00"
+  },
+  {
+    "name": "Soil Testing LaboratorY, Ta. Pilvai, Di. Mahesana",
+    "state": "GUJARAT",
+    "district": "MAHESANA",
+    "latitude": 23.53807525,
+    "longitude": 72.72117379,
+    "timing_from": "10:30:00",
+    "timing_to": "18:10:00"
+  },
+  {
+    "name": "Soil Testing Laboratory, Maherwada",
+    "state": "GUJARAT",
+    "district": "MAHESANA",
+    "latitude": 23.8562769,
+    "longitude": 72.4681498,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "SOIL TESTING LABORATORY",
+    "state": "PUDUCHERRY",
+    "district": "PONDICHERRY",
+    "latitude": 11.9453086,
+    "longitude": 79.8073279,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil Testing Laboratory, Tura",
+    "state": "MEGHALAYA",
+    "district": "WEST GARO HILLS",
+    "latitude": 25.4999095,
+    "longitude": 90.21391447,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "DLRSL,TURA.",
+    "state": "MEGHALAYA",
+    "district": "WEST GARO HILLS",
+    "latitude": 25.4999095,
+    "longitude": 90.21391447,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "Assistant Director of Agriculture STL, Kadapa",
+    "state": "ANDHRA PRADESH",
+    "district": "Y.S.R.",
+    "latitude": 14.44254588,
+    "longitude": 78.83767722,
+    "timing_from": "22:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "STL AMC Proddatur",
+    "state": "ANDHRA PRADESH",
+    "district": "Y.S.R.",
+    "latitude": 14.75684487,
+    "longitude": 78.55191623,
+    "timing_from": "10:00:00",
+    "timing_to": "05:00:00"
+  },
+  {
+    "name": "STL Utukur Kadapa",
+    "state": "ANDHRA PRADESH",
+    "district": "Y.S.R.",
+    "latitude": 14.44201152,
+    "longitude": 78.80466417,
+    "timing_from": "10:00:00",
+    "timing_to": "05:00:00"
+  },
+  {
+    "name": "Loknete Sunderaoji Solunke Sahakari Sakhar Karkhan",
+    "state": "MAHARASHTRA",
+    "district": "BEED",
+    "latitude": 18.97224017,
+    "longitude": 76.17920329,
+    "timing_from": "08:30:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "Shri Chhatrapati, Shahu, Phule, Ambedkar College o",
+    "state": "MAHARASHTRA",
+    "district": "BEED",
+    "latitude": 18.7897035,
+    "longitude": 75.1316571,
+    "timing_from": "09:30:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "District Soil Survey And Soil Testing Officer, Bee",
+    "state": "MAHARASHTRA",
+    "district": "BEED",
+    "latitude": 18.97342513,
+    "longitude": 75.74058947,
+    "timing_from": "09:45:00",
+    "timing_to": "18:15:00"
+  },
+  {
+    "name": "Soil Testing Laboratory",
+    "state": "GUJARAT",
+    "district": "SABAR KANTHA",
+    "latitude": 24.02478935,
+    "longitude": 73.04568325,
+    "timing_from": "10:30:00",
+    "timing_to": "06:10:00"
+  },
+  {
+    "name": "Village Level Soil Testing Laboratory  Kherol",
+    "state": "GUJARAT",
+    "district": "SABAR KANTHA",
+    "latitude": 23.3078921,
+    "longitude": 72.940287,
+    "timing_from": "09:30:00",
+    "timing_to": "05:00:00"
+  },
+  {
+    "name": "Soil Testing Lab",
+    "state": "ANDHRA PRADESH",
+    "district": "SPSR NELLORE",
+    "latitude": 14.4600257,
+    "longitude": 79.9878448,
+    "timing_from": "10:30:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "NPMSH&F STL Nellore",
+    "state": "ANDHRA PRADESH",
+    "district": "SPSR NELLORE",
+    "latitude": 14.4600257,
+    "longitude": 79.9878448,
+    "timing_from": "10:30:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "AMC KAVALI",
+    "state": "ANDHRA PRADESH",
+    "district": "SPSR NELLORE",
+    "latitude": 14.95050902,
+    "longitude": 79.99898413,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Village Level Soil Testing Matoda",
+    "state": "GUJARAT",
+    "district": "SABAR KANTHA",
+    "latitude": 24.11521515,
+    "longitude": 73.00897916,
+    "timing_from": "10:00:00",
+    "timing_to": "05:00:00"
+  },
+  {
+    "name": "Pragati Village Level Soil Testing Laboratory",
+    "state": "GUJARAT",
+    "district": "SABAR KANTHA",
+    "latitude": 23.80631637,
+    "longitude": 72.86993025,
+    "timing_from": "10:00:00",
+    "timing_to": "05:00:00"
+  },
+  {
+    "name": "STL Una",
+    "state": "HIMACHAL PRADESH",
+    "district": "UNA",
+    "latitude": 31.46703596,
+    "longitude": 76.26118443,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "Mobile Soil Testing Lab",
+    "state": "HIMACHAL PRADESH",
+    "district": "UNA",
+    "latitude": 31.46703593,
+    "longitude": 76.26118412,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Mini Soil Testing Lab Gagret",
+    "state": "HIMACHAL PRADESH",
+    "district": "UNA",
+    "latitude": 31.65103124,
+    "longitude": 76.06919315,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Mobile Soil Testing Lab",
+    "state": "HIMACHAL PRADESH",
+    "district": "UNA",
+    "latitude": 31.6886745,
+    "longitude": 76.11558256,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Mobile Soil Testing Lab",
+    "state": "HIMACHAL PRADESH",
+    "district": "UNA",
+    "latitude": 31.63276586,
+    "longitude": 76.3432543,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Mobile Soil Testing Lab",
+    "state": "HIMACHAL PRADESH",
+    "district": "UNA",
+    "latitude": 31.42294616,
+    "longitude": 76.22979793,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Mobile Soil Testing Lab",
+    "state": "HIMACHAL PRADESH",
+    "district": "UNA",
+    "latitude": 31.46523585,
+    "longitude": 76.26223011,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "District soil survey and soil testing officer,jaln",
+    "state": "MAHARASHTRA",
+    "district": "JALNA",
+    "latitude": 19.82657097,
+    "longitude": 75.88313767,
+    "timing_from": "09:45:00",
+    "timing_to": "18:30:00"
+  },
+  {
+    "name": "SSTLSOUTH",
+    "state": "TRIPURA",
+    "district": "South Tripura",
+    "latitude": 23.80921505,
+    "longitude": 91.26692249,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "Soil Testing Laboratory , Goalghar Port Blair",
+    "state": "ANDAMAN AND NICOBAR ISLANDS",
+    "district": "SOUTH ANDAMANS",
+    "latitude": 11.6640326,
+    "longitude": 92.73270447,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "???? ??????? ?????????? ??????",
+    "state": "UTTAR PRADESH",
+    "district": "Kasganj",
+    "latitude": 27.76012987,
+    "longitude": 78.52121609,
+    "timing_from": "10:00:00",
+    "timing_to": "05:00:00"
+  },
+  {
+    "name": "STLbalodaBazar(Mandi)",
+    "state": "CHHATTISGARH",
+    "district": "SARANGARH BILAIGARH",
+    "latitude": 21.6059746,
+    "longitude": 83.1039406,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "STLSGHBGH",
+    "state": "CHHATTISGARH",
+    "district": "SARANGARH BILAIGARH",
+    "latitude": 21.5967981,
+    "longitude": 83.0605506,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil Testing Lab (Mandi)  Balodabazar",
+    "state": "CHHATTISGARH",
+    "district": "SARANGARH BILAIGARH",
+    "latitude": 21.6454772,
+    "longitude": 82.1693261,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "VED VLSTL GATADIH",
+    "state": "CHHATTISGARH",
+    "district": "SARANGARH BILAIGARH",
+    "latitude": 21.5856358,
+    "longitude": 83.0782699,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Office of The Assistant Soil Survey Officer (Soil",
+    "state": "MADHYA PRADESH",
+    "district": "JABALPUR",
+    "latitude": 23.20093007,
+    "longitude": 79.96359561,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "SHRI RAGHUVEER KRIPA KHAJARI",
+    "state": "MADHYA PRADESH",
+    "district": "JABALPUR",
+    "latitude": 23.28375942,
+    "longitude": 79.69069275,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil Testing Laboratory",
+    "state": "TAMIL NADU",
+    "district": "PERAMBALUR",
+    "latitude": 11.22544607,
+    "longitude": 78.87454462,
+    "timing_from": "10:01:00",
+    "timing_to": "17:45:00"
+  },
+  {
+    "name": "Mobile Soil Testing Laboratory",
+    "state": "TAMIL NADU",
+    "district": "PERAMBALUR",
+    "latitude": 11.2287716,
+    "longitude": 78.81825555,
+    "timing_from": "10:00:00",
+    "timing_to": "17:04:00"
+  },
+  {
+    "name": "MOBILE SOIL TESTING LABORATORY",
+    "state": "TAMIL NADU",
+    "district": "PERAMBALUR",
+    "latitude": 11.2228494,
+    "longitude": 78.87411954,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STLPOONCH",
+    "state": "JAMMU AND KASHMIR",
+    "district": "POONCH",
+    "latitude": 33.76556177,
+    "longitude": 74.08664232,
+    "timing_from": "10:00:00",
+    "timing_to": "04:30:00"
+  },
+  {
+    "name": "SoilTestingLaboratoryVan",
+    "state": "JAMMU AND KASHMIR",
+    "district": "POONCH",
+    "latitude": 33.7652614,
+    "longitude": 74.0989144,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil Testing Laboratory,Paramakudi",
+    "state": "TAMIL NADU",
+    "district": "RAMANATHAPURAM",
+    "latitude": 9.552813773,
+    "longitude": 78.58012147,
+    "timing_from": "10:00:00",
+    "timing_to": "05:45:00"
+  },
+  {
+    "name": "MOBILE SOIL TESTING LABORATORY PARAMAKUDI",
+    "state": "TAMIL NADU",
+    "district": "RAMANATHAPURAM",
+    "latitude": 9.553344787,
+    "longitude": 78.57960644,
+    "timing_from": "10:00:00",
+    "timing_to": "17:45:00"
+  },
+  {
+    "name": "DISTRICT SOIL SURVEY AND SOIL TESTING LABORATORY L",
+    "state": "MAHARASHTRA",
+    "district": "LATUR",
+    "latitude": 18.3553562,
+    "longitude": 76.5980161,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Mobile Soil Testing Laboratory, NAGAPATTINAM.",
+    "state": "TAMIL NADU",
+    "district": "NAGAPATTINAM",
+    "latitude": 10.77355038,
+    "longitude": 79.83941624,
+    "timing_from": "10:00:00",
+    "timing_to": "17:45:00"
+  },
+  {
+    "name": "Dscolongleng",
+    "state": "NAGALAND",
+    "district": "LONGLENG",
+    "latitude": 26.48925834,
+    "longitude": 94.81096108,
+    "timing_from": "09:00:00",
+    "timing_to": "16:00:00"
+  },
+  {
+    "name": "STL, Tamlu",
+    "state": "NAGALAND",
+    "district": "LONGLENG",
+    "latitude": 26.65472862,
+    "longitude": 94.72396167,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Sakshi",
+    "state": "NAGALAND",
+    "district": "LONGLENG",
+    "latitude": 26.4052589,
+    "longitude": 94.8666188,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Sanis",
+    "state": "NAGALAND",
+    "district": "WOKHA",
+    "latitude": 26.18114,
+    "longitude": 94.1816966,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Bhandari",
+    "state": "NAGALAND",
+    "district": "WOKHA",
+    "latitude": 26.2864163,
+    "longitude": 94.1213724,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Chukitong",
+    "state": "NAGALAND",
+    "district": "WOKHA",
+    "latitude": 26.1157162,
+    "longitude": 94.3185281,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Wozhuro",
+    "state": "NAGALAND",
+    "district": "WOKHA",
+    "latitude": 26.0098733,
+    "longitude": 94.1815638,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Changpang",
+    "state": "NAGALAND",
+    "district": "WOKHA",
+    "latitude": 26.3966653,
+    "longitude": 94.2028499,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Ralan",
+    "state": "NAGALAND",
+    "district": "WOKHA",
+    "latitude": 26.012361,
+    "longitude": 94.0123486,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Wokha1",
+    "state": "NAGALAND",
+    "district": "WOKHA",
+    "latitude": 26.0917181,
+    "longitude": 94.2597662,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "SOIL TESTING LABORATORY HARIDWAR",
+    "state": "UTTARAKHAND",
+    "district": "HARIDWAR",
+    "latitude": 29.91942232,
+    "longitude": 78.03731968,
+    "timing_from": "10:00:00",
+    "timing_to": "05:00:00"
+  },
+  {
+    "name": "PRIVATE VILLAGE SOIL TESTING LAB",
+    "state": "UTTARAKHAND",
+    "district": "HARIDWAR",
+    "latitude": 29.70459968,
+    "longitude": 77.99621267,
+    "timing_from": "10:00:00",
+    "timing_to": "05:00:00"
+  },
+  {
+    "name": "STL,AMC, Madanapalli",
+    "state": "ANDHRA PRADESH",
+    "district": "Annamayya",
+    "latitude": 13.57127067,
+    "longitude": 78.50213531,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "STL,AMC, Rayachoty",
+    "state": "ANDHRA PRADESH",
+    "district": "Annamayya",
+    "latitude": 14.06741384,
+    "longitude": 78.75321949,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "Kai. swatantra sainik shesherao patil sevabhavi sa",
+    "state": "MAHARASHTRA",
+    "district": "NANDED",
+    "latitude": 18.87140471,
+    "longitude": 77.6497821,
+    "timing_from": "09:00:00",
+    "timing_to": "06:00:00"
+  },
+  {
+    "name": "Rastramata jijau soil and water testing lab lingap",
+    "state": "MAHARASHTRA",
+    "district": "NANDED",
+    "latitude": 19.4005446,
+    "longitude": 77.7362752,
+    "timing_from": "09:45:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "District Soil Survey & Soil Testing Office",
+    "state": "MAHARASHTRA",
+    "district": "NANDED",
+    "latitude": 19.12729364,
+    "longitude": 77.34295878,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "SOIL TESTING LABORATORY",
+    "state": "TAMIL NADU",
+    "district": "TENKASI",
+    "latitude": 8.9758336,
+    "longitude": 77.2517888,
+    "timing_from": "10:00:00",
+    "timing_to": "05:45:00"
+  },
+  {
+    "name": "Soil  Testing Laboratory , Reasi",
+    "state": "JAMMU AND KASHMIR",
+    "district": "REASI",
+    "latitude": 33.0863954,
+    "longitude": 74.8336422,
+    "timing_from": "10:00:00",
+    "timing_to": "16:30:00"
+  },
+  {
+    "name": "Mobile Soil Testing Van",
+    "state": "JAMMU AND KASHMIR",
+    "district": "REASI",
+    "latitude": 33.04389389,
+    "longitude": 74.81453351,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil Testing Laboratory Reasi",
+    "state": "JAMMU AND KASHMIR",
+    "district": "REASI",
+    "latitude": 33.07135221,
+    "longitude": 74.73352386,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil Testing Laboratory, Ta. Bardoli, Di. Surat",
+    "state": "GUJARAT",
+    "district": "SURAT",
+    "latitude": 21.13141405,
+    "longitude": 73.1012208,
+    "timing_from": "10:30:00",
+    "timing_to": "06:10:00"
+  },
+  {
+    "name": "Village Level Soil Testing Laboratory Isroli",
+    "state": "GUJARAT",
+    "district": "SURAT",
+    "latitude": 21.09857974,
+    "longitude": 73.12505696,
+    "timing_from": "10:00:00",
+    "timing_to": "05:00:00"
+  },
+  {
+    "name": "Village Level Soil Testing Laboratory",
+    "state": "GUJARAT",
+    "district": "SURAT",
+    "latitude": 21.14406141,
+    "longitude": 73.11611441,
+    "timing_from": "10:00:00",
+    "timing_to": "05:00:00"
+  },
+  {
+    "name": "Soil Testing Lab, Tirupathur",
+    "state": "TAMIL NADU",
+    "district": "Tirupathur",
+    "latitude": 12.59551575,
+    "longitude": 78.51998814,
+    "timing_from": "10:00:00",
+    "timing_to": "17:45:00"
+  },
+  {
+    "name": "SOIL TESTING LAB  MANDI KATNI",
+    "state": "MADHYA PRADESH",
+    "district": "KATNI",
+    "latitude": 23.86576104,
+    "longitude": 80.37102898,
+    "timing_from": "10:00:00",
+    "timing_to": "06:00:00"
+  },
+  {
+    "name": "SOIL TESTING LABORATORY,NAMAKKAL",
+    "state": "TAMIL NADU",
+    "district": "NAMAKKAL",
+    "latitude": 11.17448103,
+    "longitude": 78.19768031,
+    "timing_from": "10:00:00",
+    "timing_to": "17:45:00"
+  },
+  {
+    "name": "MSTL TIRUCHENGODE",
+    "state": "TAMIL NADU",
+    "district": "NAMAKKAL",
+    "latitude": 11.4142694,
+    "longitude": 77.8807191,
+    "timing_from": "10:00:00",
+    "timing_to": "17:45:00"
+  },
+  {
+    "name": "Soil Testing Lab Kanchipuram",
+    "state": "TAMIL NADU",
+    "district": "KANCHIPURAM",
+    "latitude": 12.85029702,
+    "longitude": 79.69837145,
+    "timing_from": "10:00:00",
+    "timing_to": "05:45:00"
+  },
+  {
+    "name": "Soil Testing Laboratory",
+    "state": "TAMIL NADU",
+    "district": "TIRUNELVELI",
+    "latitude": 8.714909664,
+    "longitude": 77.74792104,
+    "timing_from": "10:00:00",
+    "timing_to": "05:45:00"
+  },
+  {
+    "name": "SOIL AND WATER TESTING LABORATORY",
+    "state": "GUJARAT",
+    "district": "VADODARA",
+    "latitude": 22.38369698,
+    "longitude": 73.14621919,
+    "timing_from": "08:30:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "Soil Testing Laboratory, Di. Vadodara",
+    "state": "GUJARAT",
+    "district": "VADODARA",
+    "latitude": 22.29304766,
+    "longitude": 73.19462214,
+    "timing_from": "10:30:00",
+    "timing_to": "18:10:00"
+  },
+  {
+    "name": "Soil Testing Laboratory",
+    "state": "TAMIL NADU",
+    "district": "COIMBATORE",
+    "latitude": 11.0136802,
+    "longitude": 76.9398778,
+    "timing_from": "10:00:00",
+    "timing_to": "17:45:00"
+  },
+  {
+    "name": "LAB MUZAFFARNAGAR",
+    "state": "UTTAR PRADESH",
+    "district": "MUZAFFARNAGAR",
+    "latitude": 29.44859614,
+    "longitude": 77.69753529,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "STL, Sundargarh",
+    "state": "ODISHA",
+    "district": "SUNDARGARH",
+    "latitude": 22.11727635,
+    "longitude": 84.04774636,
+    "timing_from": "10:00:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "MSTL,SUNDRGARH",
+    "state": "ODISHA",
+    "district": "SUNDARGARH",
+    "latitude": 22.11727635,
+    "longitude": 84.04774636,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "MSTL,SUNDARGARH",
+    "state": "ODISHA",
+    "district": "SUNDARGARH",
+    "latitude": 22.11727635,
+    "longitude": 84.04774636,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Choudhury soil testing lab",
+    "state": "ODISHA",
+    "district": "SUNDARGARH",
+    "latitude": 22.02505054,
+    "longitude": 84.03470531,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Satyabrata soil testing lab",
+    "state": "ODISHA",
+    "district": "SUNDARGARH",
+    "latitude": 22.11348177,
+    "longitude": 84.05343176,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Sharon Soil Testing Lab",
+    "state": "ODISHA",
+    "district": "SUNDARGARH",
+    "latitude": 22.13327195,
+    "longitude": 83.9796528,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil testing lab, Mayiladuthurai",
+    "state": "TAMIL NADU",
+    "district": "Mayiladuthurai",
+    "latitude": 11.08896679,
+    "longitude": 79.64718565,
+    "timing_from": "10:00:00",
+    "timing_to": "17:45:00"
+  },
+  {
+    "name": "Static Soil Testing Laboratory, Nayagarh",
+    "state": "ODISHA",
+    "district": "NAYAGARH",
+    "latitude": 20.12271021,
+    "longitude": 85.10495517,
+    "timing_from": "10:00:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "STL Nayagarh",
+    "state": "ODISHA",
+    "district": "NAYAGARH",
+    "latitude": 20.10233439,
+    "longitude": 85.06256643,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil Testing Laboratory, WMRS, Ranaghat",
+    "state": "WEST BENGAL",
+    "district": "NADIA",
+    "latitude": 23.14548353,
+    "longitude": 88.56610698,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Mini -Soil Testing Lab, Shimla 4",
+    "state": "HIMACHAL PRADESH",
+    "district": "SHIMLA",
+    "latitude": 31.12883182,
+    "longitude": 77.22704115,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Jkvstl Bugam khag",
+    "state": "JAMMU AND KASHMIR",
+    "district": "Budgam",
+    "latitude": 33.93048885,
+    "longitude": 74.49293896,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil Testing Lab Amroha",
+    "state": "UTTAR PRADESH",
+    "district": "AMROHA",
+    "latitude": 28.89000854,
+    "longitude": 78.47658279,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "SOIL TESTING LABORATORY WAIDHAN DISTRICT-SINGRAULI",
+    "state": "MADHYA PRADESH",
+    "district": "SINGRAULI",
+    "latitude": 24.07834202,
+    "longitude": 82.61283862,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "STL WAIDHAN",
+    "state": "MADHYA PRADESH",
+    "district": "SINGRAULI",
+    "latitude": 24.0627114,
+    "longitude": 82.6254508,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "Soil Testing Laboratory, Di. Dahod",
+    "state": "GUJARAT",
+    "district": "DOHAD",
+    "latitude": 22.83520344,
+    "longitude": 74.26096593,
+    "timing_from": "10:30:00",
+    "timing_to": "18:10:00"
+  },
+  {
+    "name": "VSTLKELLER",
+    "state": "JAMMU AND KASHMIR",
+    "district": "SHOPIAN",
+    "latitude": 33.78001548,
+    "longitude": 74.75928388,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "JK_VSTLWACHISHOPIAN",
+    "state": "JAMMU AND KASHMIR",
+    "district": "SHOPIAN",
+    "latitude": 33.79576763,
+    "longitude": 75.03237452,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil testing Lab, Krishi upaj mandi samiti, jaida,",
+    "state": "MADHYA PRADESH",
+    "district": "SHEOPUR",
+    "latitude": 25.66130701,
+    "longitude": 76.67250423,
+    "timing_from": "10:00:00",
+    "timing_to": "18:14:00"
+  },
+  {
+    "name": "lab Barwani(kari)",
+    "state": "MADHYA PRADESH",
+    "district": "BARWANI",
+    "latitude": 22.0439099,
+    "longitude": 74.9147841,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "lab Barwani (kari)",
+    "state": "MADHYA PRADESH",
+    "district": "BARWANI",
+    "latitude": 22.03649329,
+    "longitude": 74.90558102,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "lab sendhwa",
+    "state": "MADHYA PRADESH",
+    "district": "BARWANI",
+    "latitude": 21.66392207,
+    "longitude": 75.09096867,
+    "timing_from": "10:00:00",
+    "timing_to": "06:00:00"
+  },
+  {
+    "name": "Dondwada Pansemal",
+    "state": "MADHYA PRADESH",
+    "district": "BARWANI",
+    "latitude": 21.64056669,
+    "longitude": 74.74497436,
+    "timing_from": "10:00:00",
+    "timing_to": "06:00:00"
+  },
+  {
+    "name": "Dondwada Pansemal",
+    "state": "MADHYA PRADESH",
+    "district": "BARWANI",
+    "latitude": 21.64056389,
+    "longitude": 74.74495836,
+    "timing_from": "10:00:00",
+    "timing_to": "06:00:00"
+  },
+  {
+    "name": "Dondwada pansemal",
+    "state": "MADHYA PRADESH",
+    "district": "BARWANI",
+    "latitude": 21.64055714,
+    "longitude": 74.74491986,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "Dondwada Pansemal",
+    "state": "MADHYA PRADESH",
+    "district": "BARWANI",
+    "latitude": 21.64057129,
+    "longitude": 74.74500059,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "Dondwada",
+    "state": "MADHYA PRADESH",
+    "district": "BARWANI",
+    "latitude": 21.7349304,
+    "longitude": 74.70537117,
+    "timing_from": "22:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "stldpi",
+    "state": "TAMIL NADU",
+    "district": "DHARMAPURI",
+    "latitude": 12.12835152,
+    "longitude": 78.16348409,
+    "timing_from": "10:00:00",
+    "timing_to": "17:45:00"
+  },
+  {
+    "name": "Soil testing laboratory",
+    "state": "TAMIL NADU",
+    "district": "VILLUPURAM",
+    "latitude": 11.93095898,
+    "longitude": 79.4796754,
+    "timing_from": "10:00:00",
+    "timing_to": "17:45:00"
+  },
+  {
+    "name": "Mobile STL",
+    "state": "TAMIL NADU",
+    "district": "VILLUPURAM",
+    "latitude": 11.93095423,
+    "longitude": 79.47970518,
+    "timing_from": "10:00:00",
+    "timing_to": "05:45:00"
+  },
+  {
+    "name": "SOIL TESTING LAB",
+    "state": "TAMIL NADU",
+    "district": "THANJAVUR",
+    "latitude": 11.01584096,
+    "longitude": 79.47985113,
+    "timing_from": "09:45:00",
+    "timing_to": "17:45:00"
+  },
+  {
+    "name": "SOIL TESTING LABORATORY",
+    "state": "TAMIL NADU",
+    "district": "Ranipet",
+    "latitude": 12.90227946,
+    "longitude": 79.46483641,
+    "timing_from": "10:00:00",
+    "timing_to": "05:45:00"
+  },
+  {
+    "name": "Vks agri clinic cum mini STL",
+    "state": "TAMIL NADU",
+    "district": "SIVAGANGA",
+    "latitude": 9.8274653,
+    "longitude": 78.2543075,
+    "timing_from": "08:00:00",
+    "timing_to": "19:00:00"
+  },
+  {
+    "name": "Soil Testing Laboratory",
+    "state": "MIZORAM",
+    "district": "KOLASIB",
+    "latitude": 24.22314084,
+    "longitude": 92.67308071,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "Soil testing laboratory Semiliguda",
+    "state": "ODISHA",
+    "district": "KORAPUT",
+    "latitude": 18.6956248,
+    "longitude": 82.83909532,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "Soil testing laboratory Semiliguda",
+    "state": "ODISHA",
+    "district": "KORAPUT",
+    "latitude": 18.70328394,
+    "longitude": 82.84785436,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "Soil testing laboratory Semiliguda",
+    "state": "ODISHA",
+    "district": "KORAPUT",
+    "latitude": 18.70502392,
+    "longitude": 82.85598848,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "Soil testing laboratory Semiliguda",
+    "state": "ODISHA",
+    "district": "KORAPUT",
+    "latitude": 18.69675828,
+    "longitude": 82.84044195,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "Static STL",
+    "state": "ODISHA",
+    "district": "KORAPUT",
+    "latitude": 18.68960605,
+    "longitude": 82.8337918,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "MSTL",
+    "state": "ODISHA",
+    "district": "KORAPUT",
+    "latitude": 18.80924344,
+    "longitude": 82.70995401,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil Testing Laboratory, KVK Buldhana",
+    "state": "MAHARASHTRA",
+    "district": "BULDHANA",
+    "latitude": 20.48480167,
+    "longitude": 76.12525492,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "District Soil Survey Soil Testing Officer, Buldana",
+    "state": "MAHARASHTRA",
+    "district": "BULDHANA",
+    "latitude": 20.52096726,
+    "longitude": 76.16330224,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "dfadfadsfdfadfsdfadfdfsdafdfas",
+    "state": "MAHARASHTRA",
+    "district": "JALGAON",
+    "latitude": 20.7434122,
+    "longitude": 75.6177592,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "Chandraditya Soil & Water Testing Lab Chalisgaon",
+    "state": "MAHARASHTRA",
+    "district": "JALGAON",
+    "latitude": 20.4621211,
+    "longitude": 75.00893,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "AGRICOS BIOTECH",
+    "state": "MAHARASHTRA",
+    "district": "JALGAON",
+    "latitude": 21.24826527,
+    "longitude": 75.31136169,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "Laikera block",
+    "state": "ODISHA",
+    "district": "JHARSUGUDA",
+    "latitude": 21.88392153,
+    "longitude": 84.21269591,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "Jharsuguda block",
+    "state": "ODISHA",
+    "district": "JHARSUGUDA",
+    "latitude": 21.8595022,
+    "longitude": 84.0416025,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "Kirmira block",
+    "state": "ODISHA",
+    "district": "JHARSUGUDA",
+    "latitude": 21.8869075,
+    "longitude": 84.2116642,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "Lakhanpur block",
+    "state": "ODISHA",
+    "district": "JHARSUGUDA",
+    "latitude": 21.7665145,
+    "longitude": 83.7700653,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "Static Lab",
+    "state": "ODISHA",
+    "district": "JHARSUGUDA",
+    "latitude": 21.8785033,
+    "longitude": 83.9777322,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "soil testing Lab krishi upaj mandi A.B. Road Shaja",
+    "state": "MADHYA PRADESH",
+    "district": "SHAJAPUR",
+    "latitude": 23.4207601,
+    "longitude": 76.27436,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "SOIL TESTING LABORATORY,TADONG GANGTOK",
+    "state": "SIKKIM",
+    "district": "Gangtok",
+    "latitude": 27.31966096,
+    "longitude": 88.60290404,
+    "timing_from": "10:00:00",
+    "timing_to": "16:30:00"
+  },
+  {
+    "name": "Khamdong mini STL (HARVESTO)",
+    "state": "SIKKIM",
+    "district": "Gangtok",
+    "latitude": 27.26963336,
+    "longitude": 88.44610975,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "MINI STL KHAMDONG",
+    "state": "SIKKIM",
+    "district": "Gangtok",
+    "latitude": 27.26963336,
+    "longitude": 88.44610975,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "village level STL",
+    "state": "SIKKIM",
+    "district": "Gangtok",
+    "latitude": 27.26963305,
+    "longitude": 88.44610958,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil Health Center",
+    "state": "KARNATAKA",
+    "district": "DAVANGERE",
+    "latitude": 14.46528254,
+    "longitude": 75.93232066,
+    "timing_from": "10:00:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "Avani Mannu Pariksha Kendra",
+    "state": "KARNATAKA",
+    "district": "DAVANGERE",
+    "latitude": 14.29717453,
+    "longitude": 75.79616822,
+    "timing_from": "10:00:00",
+    "timing_to": "05:00:00"
+  },
+  {
+    "name": "Gramamattada Mannu Pariksha Kendra",
+    "state": "KARNATAKA",
+    "district": "DAVANGERE",
+    "latitude": 14.23344956,
+    "longitude": 75.80831769,
+    "timing_from": "10:00:00",
+    "timing_to": "05:00:00"
+  },
+  {
+    "name": "Avani Mannu Pariksha Kendra",
+    "state": "KARNATAKA",
+    "district": "DAVANGERE",
+    "latitude": 14.4711119,
+    "longitude": 76.4421335,
+    "timing_from": "10:00:00",
+    "timing_to": "05:00:00"
+  },
+  {
+    "name": "L R Soil testing Lab",
+    "state": "KARNATAKA",
+    "district": "DAVANGERE",
+    "latitude": 13.94717041,
+    "longitude": 75.97397197,
+    "timing_from": "10:00:00",
+    "timing_to": "05:00:00"
+  },
+  {
+    "name": "Avani Mannu Pariksha Kendra",
+    "state": "KARNATAKA",
+    "district": "DAVANGERE",
+    "latitude": 14.3762413,
+    "longitude": 75.7537818,
+    "timing_from": "10:00:00",
+    "timing_to": "05:00:00"
+  },
+  {
+    "name": "Avani Soil Testing Lab",
+    "state": "KARNATAKA",
+    "district": "DAVANGERE",
+    "latitude": 14.190508,
+    "longitude": 75.5248333,
+    "timing_from": "10:00:00",
+    "timing_to": "05:00:00"
+  },
+  {
+    "name": "ICAR-Taralabalu Krishi Vigyan Kendra",
+    "state": "KARNATAKA",
+    "district": "DAVANGERE",
+    "latitude": 14.4412734,
+    "longitude": 75.9103775,
+    "timing_from": "10:00:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "Bio Center Davanagere",
+    "state": "KARNATAKA",
+    "district": "DAVANGERE",
+    "latitude": 14.46530475,
+    "longitude": 75.9341203,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil and Water Testing Laboratory",
+    "state": "KARNATAKA",
+    "district": "DAVANGERE",
+    "latitude": 14.29860956,
+    "longitude": 75.84119628,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "ICAR- Taralabalu Krishi Vigyan Kendra",
+    "state": "KARNATAKA",
+    "district": "DAVANGERE",
+    "latitude": 14.4412734,
+    "longitude": 75.9103775,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "R H Agri Clinic",
+    "state": "KARNATAKA",
+    "district": "DAVANGERE",
+    "latitude": 14.461718,
+    "longitude": 75.934748,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL ANANTAPUR",
+    "state": "ANDHRA PRADESH",
+    "district": "ANANTAPUR",
+    "latitude": 14.6771823,
+    "longitude": 77.5991511,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "STL,ONGOLE",
+    "state": "ANDHRA PRADESH",
+    "district": "PRAKASAM",
+    "latitude": 15.48724601,
+    "longitude": 80.04217522,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "District Soil Survey And Soil Testing Office Ratna",
+    "state": "MAHARASHTRA",
+    "district": "RATNAGIRI",
+    "latitude": 16.98073974,
+    "longitude": 73.35177678,
+    "timing_from": "09:45:00",
+    "timing_to": "06:45:00"
+  },
+  {
+    "name": "AMC STL DHARMAVARAM",
+    "state": "ANDHRA PRADESH",
+    "district": "Sri Sathya Sai",
+    "latitude": 14.42929533,
+    "longitude": 77.73395262,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "AMC STL PENUKONDA",
+    "state": "ANDHRA PRADESH",
+    "district": "Sri Sathya Sai",
+    "latitude": 14.09893464,
+    "longitude": 77.59802924,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "Bhumata Analitycal Laboratory, Amhmednagar.",
+    "state": "MAHARASHTRA",
+    "district": "AHMEDNAGAR",
+    "latitude": 19.12428468,
+    "longitude": 74.74099377,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "Rajas Laboratory Shastrinagar Kedgoan,Ahmednagar.",
+    "state": "MAHARASHTRA",
+    "district": "AHMEDNAGAR",
+    "latitude": 19.06029014,
+    "longitude": 74.71541078,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "Agro Warta Soil Testing Lab",
+    "state": "MAHARASHTRA",
+    "district": "AHMEDNAGAR",
+    "latitude": 19.15662513,
+    "longitude": 74.69674209,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "STL Jalgaon",
+    "state": "MAHARASHTRA",
+    "district": "AHMEDNAGAR",
+    "latitude": 19.5040746,
+    "longitude": 73.3232421,
+    "timing_from": "10:05:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "District Soil Survey & Soil Testing Lab",
+    "state": "MAHARASHTRA",
+    "district": "AHMEDNAGAR",
+    "latitude": 19.0436206,
+    "longitude": 74.74267632,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil Testing lab, Krashi Upaj Mandi Samittee, Khuj",
+    "state": "MADHYA PRADESH",
+    "district": "RAJGARH",
+    "latitude": 24.00193832,
+    "longitude": 76.71545759,
+    "timing_from": "10:00:00",
+    "timing_to": "06:00:00"
+  },
+  {
+    "name": "Referral soil Testing laboratory Sambalpur Odisha",
+    "state": "ODISHA",
+    "district": "SAMBALPUR",
+    "latitude": 21.47312182,
+    "longitude": 83.96783163,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "Dhankaud",
+    "state": "ODISHA",
+    "district": "SAMBALPUR",
+    "latitude": 21.47312182,
+    "longitude": 83.96783163,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "Jujomur",
+    "state": "ODISHA",
+    "district": "SAMBALPUR",
+    "latitude": 21.23425728,
+    "longitude": 84.13256933,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "Rengali",
+    "state": "ODISHA",
+    "district": "SAMBALPUR",
+    "latitude": 21.64104865,
+    "longitude": 84.03734606,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "RAIRAKHOl",
+    "state": "ODISHA",
+    "district": "SAMBALPUR",
+    "latitude": 21.04136475,
+    "longitude": 84.3335587,
+    "timing_from": "10:00:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "NAKTIDE",
+    "state": "ODISHA",
+    "district": "SAMBALPUR",
+    "latitude": 21.2549818,
+    "longitude": 84.5409322,
+    "timing_from": "10:00:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "BAMR",
+    "state": "ODISHA",
+    "district": "SAMBALPUR",
+    "latitude": 22.05431981,
+    "longitude": 84.28671348,
+    "timing_from": "10:00:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "GUNDERPUR",
+    "state": "ODISHA",
+    "district": "SAMBALPUR",
+    "latitude": 21.40560086,
+    "longitude": 83.99506894,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "JAMANKIRA",
+    "state": "ODISHA",
+    "district": "SAMBALPUR",
+    "latitude": 21.53303406,
+    "longitude": 84.3841315,
+    "timing_from": "10:00:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "KUCNDA",
+    "state": "ODISHA",
+    "district": "SAMBALPUR",
+    "latitude": 21.74379906,
+    "longitude": 84.34766258,
+    "timing_from": "10:00:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "RENGAL",
+    "state": "NULL",
+    "district": "SAMBALPUR",
+    "latitude": 21.63227108,
+    "longitude": 84.04712675,
+    "timing_from": "10:00:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "Village SoilTestingLab GOLABAND",
+    "state": "NULL",
+    "district": "SAMBALPUR",
+    "latitude": 21.38789185,
+    "longitude": 83.9821896,
+    "timing_from": "10:00:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "VILLAGE SOILTESTING LAB SARLAKANI",
+    "state": "ODISHA",
+    "district": "SAMBALPUR",
+    "latitude": 21.47813416,
+    "longitude": 84.00248381,
+    "timing_from": "10:00:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "VSTL, SAMBALPUR",
+    "state": "ODISHA",
+    "district": "SAMBALPUR",
+    "latitude": 21.5673766,
+    "longitude": 84.0279235,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "MSTL, Sambalpur",
+    "state": "ODISHA",
+    "district": "SAMBALPUR",
+    "latitude": 21.47312182,
+    "longitude": 83.96783163,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil Testing Laboratory, Ta. Rajpipla, Di. Narmada",
+    "state": "GUJARAT",
+    "district": "NARMADA",
+    "latitude": 21.86970482,
+    "longitude": 73.50834929,
+    "timing_from": "10:30:00",
+    "timing_to": "06:10:00"
+  },
+  {
+    "name": "soil testing laboratory",
+    "state": "TAMIL NADU",
+    "district": "PUDUKKOTTAI",
+    "latitude": 10.39704173,
+    "longitude": 78.68320944,
+    "timing_from": "10:00:00",
+    "timing_to": "05:45:00"
+  },
+  {
+    "name": "STL Berhampore",
+    "state": "WEST BENGAL",
+    "district": "MURSHIDABAD",
+    "latitude": 24.1005874,
+    "longitude": 88.25735233,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, RKMA, Sargachhi",
+    "state": "WEST BENGAL",
+    "district": "MURSHIDABAD",
+    "latitude": 24.16590022,
+    "longitude": 88.27663144,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "DSTLUNAKOTI",
+    "state": "TRIPURA",
+    "district": "Unakoti",
+    "latitude": 24.25461754,
+    "longitude": 92.15176688,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "Soil Testing Laboratory, Virudhunagar",
+    "state": "TAMIL NADU",
+    "district": "VIRUDHUNAGAR",
+    "latitude": 9.5563058,
+    "longitude": 77.9444512,
+    "timing_from": "10:00:00",
+    "timing_to": "17:45:00"
+  },
+  {
+    "name": "Assistant Soil Testing Officer, Soil Testing Labor",
+    "state": "MADHYA PRADESH",
+    "district": "SAGAR",
+    "latitude": 23.83666574,
+    "longitude": 78.76082435,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "FIAC Phulbani",
+    "state": "ODISHA",
+    "district": "KANDHAMAL",
+    "latitude": 20.4708766,
+    "longitude": 84.2410674,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "FIAC Khajuripada",
+    "state": "ODISHA",
+    "district": "KANDHAMAL",
+    "latitude": 20.43287617,
+    "longitude": 84.41249274,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "FIAC Balliguda",
+    "state": "ODISHA",
+    "district": "KANDHAMAL",
+    "latitude": 20.198559,
+    "longitude": 83.9107997,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "FIAC Raikia",
+    "state": "ODISHA",
+    "district": "KANDHAMAL",
+    "latitude": 20.0498488,
+    "longitude": 84.23874802,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "FIAC Chakapad",
+    "state": "ODISHA",
+    "district": "KANDHAMAL",
+    "latitude": 20.2869146,
+    "longitude": 84.476881,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "FIAC Tikabali",
+    "state": "ODISHA",
+    "district": "KANDHAMAL",
+    "latitude": 20.23791372,
+    "longitude": 84.35068832,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "FIAC Phiringia",
+    "state": "ODISHA",
+    "district": "KANDHAMAL",
+    "latitude": 20.3564767,
+    "longitude": 84.120394,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "FIAC Tumudibandha",
+    "state": "ODISHA",
+    "district": "KANDHAMAL",
+    "latitude": 19.93839925,
+    "longitude": 83.71208088,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "FIAC G. Udayagiri",
+    "state": "ODISHA",
+    "district": "KANDHAMAL",
+    "latitude": 20.1220066,
+    "longitude": 84.3700518,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "FIAC Daringbadi",
+    "state": "ODISHA",
+    "district": "KANDHAMAL",
+    "latitude": 19.9081515,
+    "longitude": 84.1242981,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "FIAC Kotagarh",
+    "state": "ODISHA",
+    "district": "KANDHAMAL",
+    "latitude": 19.8383031,
+    "longitude": 83.7265706,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "FIAC K.Nuagaon",
+    "state": "ODISHA",
+    "district": "KANDHAMAL",
+    "latitude": 20.1395638,
+    "longitude": 84.00984,
+    "timing_from": "10:30:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "Static STL",
+    "state": "ODISHA",
+    "district": "KANDHAMAL",
+    "latitude": 20.46893165,
+    "longitude": 84.23795349,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "stlmadurai",
+    "state": "TAMIL NADU",
+    "district": "MADURAI",
+    "latitude": 9.942429191,
+    "longitude": 78.13398164,
+    "timing_from": "10:00:00",
+    "timing_to": "17:45:00"
+  },
+  {
+    "name": "Soil Testing Laboratory",
+    "state": "PUDUCHERRY",
+    "district": "KARAIKAL",
+    "latitude": 10.94437103,
+    "longitude": 79.82772278,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil Testing Laboratory, Bankura",
+    "state": "WEST BENGAL",
+    "district": "BANKURA",
+    "latitude": 23.23143135,
+    "longitude": 87.0612487,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil Testing Laboratory, Dalpur, Bankura",
+    "state": "WEST BENGAL",
+    "district": "BANKURA",
+    "latitude": 23.2467766,
+    "longitude": 87.03628122,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil Testing Laboratory, Shamayita Math, Bankura",
+    "state": "WEST BENGAL",
+    "district": "BANKURA",
+    "latitude": 23.38781478,
+    "longitude": 87.10095061,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil Testing Laboratory, Ta. Deesa, Di. Banaskanth",
+    "state": "GUJARAT",
+    "district": "BANAS KANTHA",
+    "latitude": 24.25466297,
+    "longitude": 72.19582807,
+    "timing_from": "10:30:00",
+    "timing_to": "06:10:00"
+  },
+  {
+    "name": "VSTL PASVADAL",
+    "state": "GUJARAT",
+    "district": "BANAS KANTHA",
+    "latitude": 23.99254693,
+    "longitude": 72.40968162,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "sstlkhowai",
+    "state": "TRIPURA",
+    "district": "Khowai",
+    "latitude": 23.80921505,
+    "longitude": 91.26692249,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "Soil Testing Laboratory, Parvathipuram",
+    "state": "ANDHRA PRADESH",
+    "district": "Parvathipuram Manyam",
+    "latitude": 18.78809864,
+    "longitude": 83.42808602,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "SOIL TESTING  LABORATORY, KARUR",
+    "state": "TAMIL NADU",
+    "district": "KARUR",
+    "latitude": 10.93929513,
+    "longitude": 78.08445917,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "mstlkarur",
+    "state": "TAMIL NADU",
+    "district": "KARUR",
+    "latitude": 10.91158563,
+    "longitude": 78.11556144,
+    "timing_from": "10:00:00",
+    "timing_to": "17:45:00"
+  },
+  {
+    "name": "Mobile soil Testing Laboratory",
+    "state": "TAMIL NADU",
+    "district": "TUTICORIN",
+    "latitude": 9.189677048,
+    "longitude": 77.88153438,
+    "timing_from": "10:00:00",
+    "timing_to": "05:45:00"
+  },
+  {
+    "name": "Soil Testing Laboratory, Kovilpatti",
+    "state": "TAMIL NADU",
+    "district": "TUTICORIN",
+    "latitude": 9.190001674,
+    "longitude": 77.88193212,
+    "timing_from": "09:45:00",
+    "timing_to": "17:45:00"
+  },
+  {
+    "name": "REGIONAL SOIL TESTING LAB RUDRAPUR",
+    "state": "UTTARAKHAND",
+    "district": "UDAM SINGH NAGAR",
+    "latitude": 28.97440285,
+    "longitude": 79.39853431,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "SOIL TESTING LABORATORY PALAMPUR",
+    "state": "HIMACHAL PRADESH",
+    "district": "KANGRA",
+    "latitude": 32.108703,
+    "longitude": 76.54045578,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "MOBILE SOIL TESTING VAN PALAMPUR",
+    "state": "HIMACHAL PRADESH",
+    "district": "KANGRA",
+    "latitude": 32.1083976,
+    "longitude": 76.5410662,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil Testing Laboratory, Di. Botad",
+    "state": "GUJARAT",
+    "district": "BOTAD",
+    "latitude": 22.18197741,
+    "longitude": 71.67999552,
+    "timing_from": "10:30:00",
+    "timing_to": "18:10:00"
+  },
+  {
+    "name": "Soil Testing Lab Dhar",
+    "state": "MADHYA PRADESH",
+    "district": "DHAR",
+    "latitude": 22.4944101,
+    "longitude": 75.2272992,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "Soil Testing Laboratory, Theni",
+    "state": "TAMIL NADU",
+    "district": "THENI",
+    "latitude": 10.03480204,
+    "longitude": 77.48837804,
+    "timing_from": "10:00:00",
+    "timing_to": "17:45:00"
+  },
+  {
+    "name": "Soil Testing Laboratory, Theni",
+    "state": "TAMIL NADU",
+    "district": "THENI",
+    "latitude": 10.03480204,
+    "longitude": 77.48837804,
+    "timing_from": "10:00:00",
+    "timing_to": "17:45:00"
+  },
+  {
+    "name": "Soil Testing Lab",
+    "state": "MADHYA PRADESH",
+    "district": "NARSINGHPUR",
+    "latitude": 22.9424524,
+    "longitude": 79.1858815,
+    "timing_from": "10:30:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "Soil Testing Laboratory Stationganj Narsinghpur",
+    "state": "MADHYA PRADESH",
+    "district": "NARSINGHPUR",
+    "latitude": 22.9445195,
+    "longitude": 79.216925,
+    "timing_from": "10:01:00",
+    "timing_to": "18:01:00"
+  },
+  {
+    "name": "AMC, STL, Ambajipeta",
+    "state": "ANDHRA PRADESH",
+    "district": "Konaseema",
+    "latitude": 16.5901089,
+    "longitude": 81.945724,
+    "timing_from": "10:30:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "AMC STL Draksharamam",
+    "state": "ANDHRA PRADESH",
+    "district": "Konaseema",
+    "latitude": 16.79542798,
+    "longitude": 82.06210381,
+    "timing_from": "10:30:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "Stl Nohar",
+    "state": "RAJASTHAN",
+    "district": "HANUMANGARH",
+    "latitude": 29.18913756,
+    "longitude": 74.77304409,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "STL Hanumangarh",
+    "state": "RAJASTHAN",
+    "district": "HANUMANGARH",
+    "latitude": 29.63153267,
+    "longitude": 74.32265678,
+    "timing_from": "09:30:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "Stl Bhadra",
+    "state": "RAJASTHAN",
+    "district": "HANUMANGARH",
+    "latitude": 29.08987513,
+    "longitude": 75.17784726,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "Static STL",
+    "state": "ODISHA",
+    "district": "CUTTACK",
+    "latitude": 20.49539416,
+    "longitude": 85.92607997,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "MSTL",
+    "state": "ODISHA",
+    "district": "CUTTACK",
+    "latitude": 20.49539416,
+    "longitude": 85.92607997,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil Lab Namthang",
+    "state": "SIKKIM",
+    "district": "Namchi",
+    "latitude": 27.16672,
+    "longitude": 88.477845,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Kamrang Mini Lab",
+    "state": "SIKKIM",
+    "district": "Namchi",
+    "latitude": 27.28553541,
+    "longitude": 88.35108056,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Kamrang Mini Lab",
+    "state": "SIKKIM",
+    "district": "Namchi",
+    "latitude": 27.175626,
+    "longitude": 88.36252975,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Menglee Soil testinglab",
+    "state": "SIKKIM",
+    "district": "Namchi",
+    "latitude": 27.2824747,
+    "longitude": 88.4368478,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil Testing Laboratory, Ahmedabad",
+    "state": "GUJARAT",
+    "district": "AHMADABAD",
+    "latitude": 23.0972772,
+    "longitude": 72.59013,
+    "timing_from": "10:30:00",
+    "timing_to": "18:10:00"
+  },
+  {
+    "name": "VAAM AGRO FARMER PRODUCER COMPANY LIMITED",
+    "state": "GUJARAT",
+    "district": "AHMADABAD",
+    "latitude": 23.35862727,
+    "longitude": 71.93892334,
+    "timing_from": "22:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "THE AGRICULTURAL PRODUCE MARKET COMMITTEE, JETALPU",
+    "state": "GUJARAT",
+    "district": "AHMADABAD",
+    "latitude": 22.86811437,
+    "longitude": 72.59283612,
+    "timing_from": "11:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "NPMSHF Vizianagaram",
+    "state": "ANDHRA PRADESH",
+    "district": "VIZIANAGARAM",
+    "latitude": 18.09982378,
+    "longitude": 83.38775452,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "A TO Z AGRO SOLUTIONS",
+    "state": "MAHARASHTRA",
+    "district": "AURANGABAD",
+    "latitude": 19.83470605,
+    "longitude": 75.89393658,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "SOIL HEALTH CLINIC, KRISHI VIGYAN KENDRA, MSSM, JA",
+    "state": "MAHARASHTRA",
+    "district": "AURANGABAD",
+    "latitude": 19.8187048,
+    "longitude": 75.9396256,
+    "timing_from": "09:45:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "MANAS ENTERPRISES, SOIL & WATER TESTING LABORATORY",
+    "state": "MAHARASHTRA",
+    "district": "AURANGABAD",
+    "latitude": 19.91555333,
+    "longitude": 75.34798901,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "MGM NANASAHEB KADAM COLLEGE OF AGRICULTURE SOIL, W",
+    "state": "MAHARASHTRA",
+    "district": "AURANGABAD",
+    "latitude": 19.8049167,
+    "longitude": 75.3973148,
+    "timing_from": "09:30:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "MIT-CENTRE FOR ANALYTICAL RESEARCH AND STUDIES",
+    "state": "MAHARASHTRA",
+    "district": "AURANGABAD",
+    "latitude": 19.84952972,
+    "longitude": 75.32237415,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "Shri Dhaneshwari Manav Vikas Mandal's, Soil & Wate",
+    "state": "MAHARASHTRA",
+    "district": "AURANGABAD",
+    "latitude": 19.79241662,
+    "longitude": 75.27624637,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "District Soil Survey  & Soil Testing Officer Auran",
+    "state": "MAHARASHTRA",
+    "district": "AURANGABAD",
+    "latitude": 19.8583701,
+    "longitude": 75.3340003,
+    "timing_from": "09:45:00",
+    "timing_to": "18:15:00"
+  },
+  {
+    "name": "Soil Testing Lab, Block Neemuch",
+    "state": "MADHYA PRADESH",
+    "district": "NEEMUCH",
+    "latitude": 24.45900003,
+    "longitude": 74.855045,
+    "timing_from": "10:30:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "Mukati Mitti Parikshan kendra - Jeeran",
+    "state": "MADHYA PRADESH",
+    "district": "NEEMUCH",
+    "latitude": 24.29733095,
+    "longitude": 74.90106549,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Patidar Krishi Clinic - Devran",
+    "state": "MADHYA PRADESH",
+    "district": "NEEMUCH",
+    "latitude": 24.4055161,
+    "longitude": 75.3950286,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Kisan Krishi Seva Kendra Manasa",
+    "state": "MADHYA PRADESH",
+    "district": "NEEMUCH",
+    "latitude": 24.47863571,
+    "longitude": 75.14648948,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "stldmr",
+    "state": "NAGALAND",
+    "district": "DIMAPUR",
+    "latitude": 25.90280795,
+    "longitude": 93.69670892,
+    "timing_from": "10:00:00",
+    "timing_to": "16:00:00"
+  },
+  {
+    "name": "STL, Chumukedima",
+    "state": "NAGALAND",
+    "district": "DIMAPUR",
+    "latitude": 25.81677907,
+    "longitude": 93.78644818,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Kuhoboto",
+    "state": "NAGALAND",
+    "district": "DIMAPUR",
+    "latitude": 25.850341,
+    "longitude": 93.91785925,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Aqhunaqa",
+    "state": "NAGALAND",
+    "district": "DIMAPUR",
+    "latitude": 25.9079244,
+    "longitude": 93.9728834,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Phek",
+    "state": "NAGALAND",
+    "district": "PHEK",
+    "latitude": 25.7063148,
+    "longitude": 94.463917,
+    "timing_from": "10:00:00",
+    "timing_to": "16:00:00"
+  },
+  {
+    "name": "STL, Meluri",
+    "state": "NAGALAND",
+    "district": "PHEK",
+    "latitude": 25.6844515,
+    "longitude": 94.6284816,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Weziho",
+    "state": "NAGALAND",
+    "district": "PHEK",
+    "latitude": 25.669639,
+    "longitude": 94.7141688,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Chizami",
+    "state": "NAGALAND",
+    "district": "PHEK",
+    "latitude": 25.5908346,
+    "longitude": 94.3947499,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Sekruzu",
+    "state": "NAGALAND",
+    "district": "PHEK",
+    "latitude": 25.76210575,
+    "longitude": 94.36957531,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Chetheba",
+    "state": "NAGALAND",
+    "district": "PHEK",
+    "latitude": 25.6678564,
+    "longitude": 94.260372,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Pfutsero",
+    "state": "NAGALAND",
+    "district": "PHEK",
+    "latitude": 25.56965136,
+    "longitude": 94.29913124,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Kikruma",
+    "state": "NAGALAND",
+    "district": "PHEK",
+    "latitude": 25.5792223,
+    "longitude": 94.2193593,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Phek",
+    "state": "NAGALAND",
+    "district": "PHEK",
+    "latitude": 25.7097816,
+    "longitude": 94.4656395,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "????? ????? ??????? ??????? ????",
+    "state": "MADHYA PRADESH",
+    "district": "REWA",
+    "latitude": 24.51469512,
+    "longitude": 81.30488962,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "Assistant Soil Testing Lab Tilak Nagar Bilaspur",
+    "state": "CHHATTISGARH",
+    "district": "Bilaspur",
+    "latitude": 22.0890222,
+    "longitude": 82.14457042,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "Assistant Soil Testing Lab Mandi Torwa Bilaspur (C",
+    "state": "CHHATTISGARH",
+    "district": "Bilaspur",
+    "latitude": 22.06475963,
+    "longitude": 82.1849578,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "Soil Testing Lab (Mandi) Ratlam",
+    "state": "MADHYA PRADESH",
+    "district": "RATLAM",
+    "latitude": 23.31868331,
+    "longitude": 75.06142413,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "MSTL,Krishnagiri",
+    "state": "TAMIL NADU",
+    "district": "KRISHNAGIRI",
+    "latitude": 12.5572544,
+    "longitude": 78.1886083,
+    "timing_from": "10:00:00",
+    "timing_to": "17:45:00"
+  },
+  {
+    "name": "Soil Testing Lab Yemmiganur,Kurnool district",
+    "state": "ANDHRA PRADESH",
+    "district": "KURNOOL",
+    "latitude": 15.7837532,
+    "longitude": 77.47189415,
+    "timing_from": "10:00:00",
+    "timing_to": "05:00:00"
+  },
+  {
+    "name": "Soil Testing Laboratory,Agricultural Marketing Com",
+    "state": "ANDHRA PRADESH",
+    "district": "KURNOOL",
+    "latitude": 15.82780815,
+    "longitude": 78.02847281,
+    "timing_from": "10:00:00",
+    "timing_to": "05:00:00"
+  },
+  {
+    "name": "Soil Testing Laboratory, Tura",
+    "state": "MEGHALAYA",
+    "district": "EAST GARO HILLS",
+    "latitude": 25.4999095,
+    "longitude": 90.21391447,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "Soil Testing Lab, Sri Ganganagar",
+    "state": "RAJASTHAN",
+    "district": "GANGANAGAR",
+    "latitude": 29.88219112,
+    "longitude": 73.8970267,
+    "timing_from": "09:30:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "SOIL TESTING LEBORATORY SURATGARH",
+    "state": "RAJASTHAN",
+    "district": "GANGANAGAR",
+    "latitude": 29.31414185,
+    "longitude": 73.9048559,
+    "timing_from": "09:30:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "Lab Kannauj",
+    "state": "UTTAR PRADESH",
+    "district": "KANNAUJ",
+    "latitude": 27.03104168,
+    "longitude": 79.92157983,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "Village Level Soil Testing Lab Godhar",
+    "state": "GUJARAT",
+    "district": "Mahisagar",
+    "latitude": 23.14674567,
+    "longitude": 73.76642662,
+    "timing_from": "09:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "Village Level Soil Testing Lab Pandava",
+    "state": "GUJARAT",
+    "district": "Mahisagar",
+    "latitude": 23.03189955,
+    "longitude": 73.32947041,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "VILLAGE  LEVEL SOIL TESTING LABORATORY BAMANWADA",
+    "state": "GUJARAT",
+    "district": "Mahisagar",
+    "latitude": 23.06341226,
+    "longitude": 73.55035251,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "VILLAGE LEVEL SOIL TESTING LABORATORY GORPURA LAT",
+    "state": "GUJARAT",
+    "district": "Mahisagar",
+    "latitude": 23.12157732,
+    "longitude": 73.35030191,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "KAIVAL SOIL TESTING LAB",
+    "state": "GUJARAT",
+    "district": "Mahisagar",
+    "latitude": 23.24919721,
+    "longitude": 73.84962674,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "SHREE KHODIYAR SOIL TESTING LABORATORY KOTHAMBA",
+    "state": "GUJARAT",
+    "district": "Mahisagar",
+    "latitude": 23.01646832,
+    "longitude": 73.53339755,
+    "timing_from": "11:00:00",
+    "timing_to": "17:59:00"
+  },
+  {
+    "name": "Soil Testing Laboratory, Di. Mahisagar",
+    "state": "GUJARAT",
+    "district": "Mahisagar",
+    "latitude": 23.1302616,
+    "longitude": 73.6032309,
+    "timing_from": "10:30:00",
+    "timing_to": "18:10:00"
+  },
+  {
+    "name": "Soil Testing Lab Tuensang",
+    "state": "NAGALAND",
+    "district": "TUENSANG",
+    "latitude": 26.2344112,
+    "longitude": 94.8154307,
+    "timing_from": "10:30:00",
+    "timing_to": "03:30:00"
+  },
+  {
+    "name": "District Soil Lab. Tuensang",
+    "state": "NAGALAND",
+    "district": "TUENSANG",
+    "latitude": 26.2222821,
+    "longitude": 94.8185045,
+    "timing_from": "00:14:00",
+    "timing_to": "19:15:00"
+  },
+  {
+    "name": "STL, Sangsangyu",
+    "state": "NAGALAND",
+    "district": "TUENSANG",
+    "latitude": 26.32826449,
+    "longitude": 94.8961342,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Noksen",
+    "state": "NAGALAND",
+    "district": "TUENSANG",
+    "latitude": 26.37175963,
+    "longitude": 94.71661945,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Chare",
+    "state": "NAGALAND",
+    "district": "TUENSANG",
+    "latitude": 26.28804587,
+    "longitude": 94.6061923,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Longkhim",
+    "state": "NAGALAND",
+    "district": "TUENSANG",
+    "latitude": 26.21963429,
+    "longitude": 94.66949505,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Shamator",
+    "state": "NAGALAND",
+    "district": "TUENSANG",
+    "latitude": 26.0728617,
+    "longitude": 94.8733755,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Chessore",
+    "state": "NAGALAND",
+    "district": "TUENSANG",
+    "latitude": 26.0918177,
+    "longitude": 94.7490233,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Thonoknyu",
+    "state": "NAGALAND",
+    "district": "TUENSANG",
+    "latitude": 25.9885428,
+    "longitude": 94.9073267,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil testing Lab Ferozepur",
+    "state": "PUNJAB",
+    "district": "FEROZEPUR",
+    "latitude": 30.91111036,
+    "longitude": 74.66346975,
+    "timing_from": "09:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "Soil Testing Lab Guruharsahai",
+    "state": "PUNJAB",
+    "district": "FEROZEPUR",
+    "latitude": 30.74162776,
+    "longitude": 74.3680051,
+    "timing_from": "09:00:00",
+    "timing_to": "05:00:00"
+  },
+  {
+    "name": "Soil Testing Lab, Zira",
+    "state": "PUNJAB",
+    "district": "FEROZEPUR",
+    "latitude": 30.9864144,
+    "longitude": 74.9967829,
+    "timing_from": "09:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "NPMSHF DHONE",
+    "state": "ANDHRA PRADESH",
+    "district": "Nandyal",
+    "latitude": 15.37072311,
+    "longitude": 77.86999066,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "GOVT SOIL TESTING LAB DEHRADUN",
+    "state": "UTTARAKHAND",
+    "district": "DEHRADUN",
+    "latitude": 30.3434269,
+    "longitude": 77.95716372,
+    "timing_from": "10:00:00",
+    "timing_to": "05:00:00"
+  },
+  {
+    "name": "AMC Soil Testing Lab, Narasaraopet.",
+    "state": "ANDHRA PRADESH",
+    "district": "Palnadu",
+    "latitude": 16.22784581,
+    "longitude": 80.05121509,
+    "timing_from": "10:30:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "AMC STL Chilakaluripeta",
+    "state": "ANDHRA PRADESH",
+    "district": "Palnadu",
+    "latitude": 16.09937694,
+    "longitude": 80.16617724,
+    "timing_from": "10:30:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "VSTL SERAGADA",
+    "state": "ODISHA",
+    "district": "GANJAM",
+    "latitude": 19.5084171,
+    "longitude": 84.60533338,
+    "timing_from": "10:00:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "VSTL KHALLIKOTE",
+    "state": "ODISHA",
+    "district": "GANJAM",
+    "latitude": 19.60681484,
+    "longitude": 85.07674573,
+    "timing_from": "10:00:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "VSTL BADABARANGA",
+    "state": "ODISHA",
+    "district": "GANJAM",
+    "latitude": 19.14519147,
+    "longitude": 84.60081649,
+    "timing_from": "10:00:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "Village level Soil Testing Laboratory",
+    "state": "ODISHA",
+    "district": "GANJAM",
+    "latitude": 19.3594414,
+    "longitude": 84.98983941,
+    "timing_from": "10:00:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "MSTL - 2",
+    "state": "ODISHA",
+    "district": "GANJAM",
+    "latitude": 19.37774571,
+    "longitude": 84.8936698,
+    "timing_from": "10:00:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "MSTL - 1",
+    "state": "ODISHA",
+    "district": "GANJAM",
+    "latitude": 19.31388486,
+    "longitude": 84.79333833,
+    "timing_from": "10:00:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "MSTL4,GANJAM",
+    "state": "ODISHA",
+    "district": "GANJAM",
+    "latitude": 19.31441709,
+    "longitude": 84.79268816,
+    "timing_from": "10:00:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "MSTL3,GANJAM",
+    "state": "ODISHA",
+    "district": "GANJAM",
+    "latitude": 19.3147988,
+    "longitude": 84.7940652,
+    "timing_from": "10:00:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "Zunheboto STL",
+    "state": "NAGALAND",
+    "district": "ZUNHEBOTO",
+    "latitude": 26.01240655,
+    "longitude": 94.5247621,
+    "timing_from": "10:00:00",
+    "timing_to": "16:00:00"
+  },
+  {
+    "name": "Static Lab Zunheboto",
+    "state": "NAGALAND",
+    "district": "ZUNHEBOTO",
+    "latitude": 26.01240553,
+    "longitude": 94.52476454,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Akuhaito",
+    "state": "NAGALAND",
+    "district": "ZUNHEBOTO",
+    "latitude": 26.0791803,
+    "longitude": 94.4553422,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Suruhoto",
+    "state": "NAGALAND",
+    "district": "ZUNHEBOTO",
+    "latitude": 26.14886327,
+    "longitude": 94.575212,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Tokiye",
+    "state": "NAGALAND",
+    "district": "ZUNHEBOTO",
+    "latitude": 25.96288124,
+    "longitude": 94.58696735,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Akuluto",
+    "state": "NAGALAND",
+    "district": "ZUNHEBOTO",
+    "latitude": 26.1798727,
+    "longitude": 94.5003581,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Ghathashi",
+    "state": "NAGALAND",
+    "district": "ZUNHEBOTO",
+    "latitude": 25.8523719,
+    "longitude": 94.3300857,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Satakha",
+    "state": "NAGALAND",
+    "district": "ZUNHEBOTO",
+    "latitude": 25.9255642,
+    "longitude": 94.4405497,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Satoi",
+    "state": "NAGALAND",
+    "district": "ZUNHEBOTO",
+    "latitude": 25.832632,
+    "longitude": 94.5718574,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Zunheboto1",
+    "state": "NAGALAND",
+    "district": "ZUNHEBOTO",
+    "latitude": 26.01240553,
+    "longitude": 94.52476454,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Static STL",
+    "state": "ODISHA",
+    "district": "DHENKANAL",
+    "latitude": 20.6540551,
+    "longitude": 85.6017852,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "MSTL",
+    "state": "ODISHA",
+    "district": "DHENKANAL",
+    "latitude": 20.6623782,
+    "longitude": 85.60329011,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "ECOCARE LABS AND CONSULTANCY",
+    "state": "MAHARASHTRA",
+    "district": "SANGLI",
+    "latitude": 16.8531614,
+    "longitude": 74.5666123,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "YASH AGROTECH LABORATORY",
+    "state": "MAHARASHTRA",
+    "district": "SANGLI",
+    "latitude": 17.02825731,
+    "longitude": 74.62217489,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "IDEAL AGRI SEARCH PVT LTD",
+    "state": "MAHARASHTRA",
+    "district": "SANGLI",
+    "latitude": 16.87057631,
+    "longitude": 74.62153441,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "SUSHILANAND AGRO POLYCLINIC",
+    "state": "MAHARASHTRA",
+    "district": "SANGLI",
+    "latitude": 17.04490108,
+    "longitude": 74.26193038,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "KASTURI AGROTECH SANGLI",
+    "state": "MAHARASHTRA",
+    "district": "SANGLI",
+    "latitude": 16.86035595,
+    "longitude": 74.57749856,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "District Soil Survey and Soil Testing Lab Sangli",
+    "state": "MAHARASHTRA",
+    "district": "SANGLI",
+    "latitude": 16.8535279,
+    "longitude": 74.57040649,
+    "timing_from": "09:45:00",
+    "timing_to": "18:15:00"
+  },
+  {
+    "name": "Soil Testing Laboratory Rajouri",
+    "state": "JAMMU AND KASHMIR",
+    "district": "RAJOURI",
+    "latitude": 33.37687941,
+    "longitude": 74.31249027,
+    "timing_from": "10:00:00",
+    "timing_to": "16:30:00"
+  },
+  {
+    "name": "Soil Testing Laboratory, Kullu",
+    "state": "HIMACHAL PRADESH",
+    "district": "KULLU",
+    "latitude": 31.96456522,
+    "longitude": 77.11378673,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil Testing Laboratory, Kullu, Distt. Kullu",
+    "state": "HIMACHAL PRADESH",
+    "district": "KULLU",
+    "latitude": 31.96456522,
+    "longitude": 77.11378673,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "District Soil Survey and Soil Testing Laboratory",
+    "state": "MAHARASHTRA",
+    "district": "SATARA",
+    "latitude": 17.72327506,
+    "longitude": 73.96568198,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Ajinkyatara Soil and Water Testing Lab. Shahunagar",
+    "state": "MAHARASHTRA",
+    "district": "SATARA",
+    "latitude": 17.62701,
+    "longitude": 74.0204592,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil and Water Testing Laboratory Dahiwadi college",
+    "state": "MAHARASHTRA",
+    "district": "SATARA",
+    "latitude": 17.70157829,
+    "longitude": 74.53989189,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Shree Agro Lab.and Research Center ,Takewadi Tal-M",
+    "state": "MAHARASHTRA",
+    "district": "SATARA",
+    "latitude": 17.7826582,
+    "longitude": 74.4969688,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL Ariyalur",
+    "state": "TAMIL NADU",
+    "district": "Ariyalur",
+    "latitude": 11.12503042,
+    "longitude": 79.09202982,
+    "timing_from": "10:00:00",
+    "timing_to": "17:45:00"
+  },
+  {
+    "name": "MGV Bio Analytical Laboratories  H Sri Sri Muralid",
+    "state": "MAHARASHTRA",
+    "district": "NASHIK",
+    "latitude": 20.57839153,
+    "longitude": 74.51152193,
+    "timing_from": "10:00:00",
+    "timing_to": "06:00:00"
+  },
+  {
+    "name": "NATIONAL HORTICULTURE RESEARCH AND DEVELOPMENT FOU",
+    "state": "MAHARASHTRA",
+    "district": "NASHIK",
+    "latitude": 20.00779728,
+    "longitude": 73.95429975,
+    "timing_from": "10:00:00",
+    "timing_to": "06:00:00"
+  },
+  {
+    "name": "KDSP college of Agriculture",
+    "state": "MAHARASHTRA",
+    "district": "NASHIK",
+    "latitude": 20.0149474,
+    "longitude": 73.76176035,
+    "timing_from": "10:00:00",
+    "timing_to": "06:00:00"
+  },
+  {
+    "name": "District Soil Survey Soil Testing Officer",
+    "state": "MAHARASHTRA",
+    "district": "NASHIK",
+    "latitude": 19.99201188,
+    "longitude": 73.76659798,
+    "timing_from": "09:30:00",
+    "timing_to": "06:15:00"
+  },
+  {
+    "name": "SOIL TESTING LAB KULGAM",
+    "state": "JAMMU AND KASHMIR",
+    "district": "KULGAM",
+    "latitude": 33.64666648,
+    "longitude": 75.00503137,
+    "timing_from": "10:00:00",
+    "timing_to": "04:30:00"
+  },
+  {
+    "name": "district lab kulgam",
+    "state": "JAMMU AND KASHMIR",
+    "district": "KULGAM",
+    "latitude": 33.64697322,
+    "longitude": 75.01246104,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "VSTL CHOWGAM",
+    "state": "JAMMU AND KASHMIR",
+    "district": "KULGAM",
+    "latitude": 33.61442811,
+    "longitude": 74.92545566,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "VSTL CHOWGAM",
+    "state": "JAMMU AND KASHMIR",
+    "district": "KULGAM",
+    "latitude": 33.6150168,
+    "longitude": 75.1240432,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil Testing Laboratory",
+    "state": "HIMACHAL PRADESH",
+    "district": "BILASPUR",
+    "latitude": 31.33263185,
+    "longitude": 76.75984742,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "Mobile Soil Testing Van",
+    "state": "HIMACHAL PRADESH",
+    "district": "BILASPUR",
+    "latitude": 31.3327244,
+    "longitude": 76.7598975,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Mobile Soil Testing Van",
+    "state": "HIMACHAL PRADESH",
+    "district": "BILASPUR",
+    "latitude": 31.3327244,
+    "longitude": 76.7598975,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Assistant  Soil Survey Officer",
+    "state": "MADHYA PRADESH",
+    "district": "INDORE",
+    "latitude": 22.6846348,
+    "longitude": 75.87218721,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "MANDILAB",
+    "state": "MADHYA PRADESH",
+    "district": "INDORE",
+    "latitude": 22.6819844,
+    "longitude": 75.8517991,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "SOIL TESTING LAB",
+    "state": "UTTAR PRADESH",
+    "district": "MEERUT",
+    "latitude": 28.95821059,
+    "longitude": 77.68411827,
+    "timing_from": "10:00:00",
+    "timing_to": "05:00:00"
+  },
+  {
+    "name": "STL Neihbawih",
+    "state": "MIZORAM",
+    "district": "AIZAWL",
+    "latitude": 23.7435236,
+    "longitude": 92.7382905,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "Assistant Soil Testing Officer Mandsaur",
+    "state": "MADHYA PRADESH",
+    "district": "MANDSAUR",
+    "latitude": 24.0856248,
+    "longitude": 75.05650354,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "Stl Keonjhar",
+    "state": "ODISHA",
+    "district": "KENDUJHAR",
+    "latitude": 21.64398884,
+    "longitude": 85.59977956,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "stlkeonjhar",
+    "state": "ODISHA",
+    "district": "KENDUJHAR",
+    "latitude": 21.64359421,
+    "longitude": 85.60013522,
+    "timing_from": "10:00:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "stl keonjhar",
+    "state": "ODISHA",
+    "district": "KENDUJHAR",
+    "latitude": 21.6396597,
+    "longitude": 85.5930332,
+    "timing_from": "10:00:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "stlkeonjhar",
+    "state": "ODISHA",
+    "district": "KENDUJHAR",
+    "latitude": 21.64415245,
+    "longitude": 85.59963211,
+    "timing_from": "10:00:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "stlkeonjhar",
+    "state": "ODISHA",
+    "district": "KENDUJHAR",
+    "latitude": 21.64402844,
+    "longitude": 85.59974388,
+    "timing_from": "10:00:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "stlkeonjhar",
+    "state": "ODISHA",
+    "district": "KENDUJHAR",
+    "latitude": 21.6396597,
+    "longitude": 85.5930332,
+    "timing_from": "10:00:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "stlkeonjhar",
+    "state": "ODISHA",
+    "district": "KENDUJHAR",
+    "latitude": 21.64398817,
+    "longitude": 85.59978016,
+    "timing_from": "10:00:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "stlkeonjhar",
+    "state": "ODISHA",
+    "district": "KENDUJHAR",
+    "latitude": 21.6441586,
+    "longitude": 85.59962657,
+    "timing_from": "10:00:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "stlkeonjhar",
+    "state": "ODISHA",
+    "district": "KENDUJHAR",
+    "latitude": 21.64418338,
+    "longitude": 85.59960423,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "stl keonjhar",
+    "state": "ODISHA",
+    "district": "KENDUJHAR",
+    "latitude": 21.65415105,
+    "longitude": 85.5906836,
+    "timing_from": "10:00:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "stl keonjhar",
+    "state": "ODISHA",
+    "district": "KENDUJHAR",
+    "latitude": 21.64416228,
+    "longitude": 85.59962325,
+    "timing_from": "10:00:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "stlkeonjhar",
+    "state": "ODISHA",
+    "district": "KENDUJHAR",
+    "latitude": 21.64415229,
+    "longitude": 85.59963226,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "stl keonjhar",
+    "state": "ODISHA",
+    "district": "KENDUJHAR",
+    "latitude": 21.64412909,
+    "longitude": 85.59965317,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "Static STL",
+    "state": "ODISHA",
+    "district": "KENDUJHAR",
+    "latitude": 21.6376203,
+    "longitude": 85.6088638,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil Testing Lab. IFFCO CORDET",
+    "state": "GUJARAT",
+    "district": "GANDHINAGAR",
+    "latitude": 23.20969606,
+    "longitude": 72.53049162,
+    "timing_from": "08:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "SOIL TESTING LAB SIMARIYA MANDI SEONI",
+    "state": "MADHYA PRADESH",
+    "district": "SEONI",
+    "latitude": 22.1358465,
+    "longitude": 79.5299581,
+    "timing_from": "10:30:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "District soil lab kiphire",
+    "state": "NAGALAND",
+    "district": "KIPHIRE",
+    "latitude": 25.88576971,
+    "longitude": 94.78531782,
+    "timing_from": "09:00:00",
+    "timing_to": "04:00:00"
+  },
+  {
+    "name": "STL, Sitimi",
+    "state": "NAGALAND",
+    "district": "KIPHIRE",
+    "latitude": 25.8380782,
+    "longitude": 94.6660781,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Longmatra",
+    "state": "NAGALAND",
+    "district": "KIPHIRE",
+    "latitude": 25.8027926,
+    "longitude": 94.759938,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Pungro",
+    "state": "NAGALAND",
+    "district": "KIPHIRE",
+    "latitude": 25.80340992,
+    "longitude": 94.83330802,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Khongsa",
+    "state": "NAGALAND",
+    "district": "KIPHIRE",
+    "latitude": 25.7491058,
+    "longitude": 94.8595002,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Kiphire",
+    "state": "NAGALAND",
+    "district": "KIPHIRE",
+    "latitude": 25.8673343,
+    "longitude": 94.7863591,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "VLSTL, RADHAMADHABPUR",
+    "state": "ODISHA",
+    "district": "CUTTACK",
+    "latitude": 20.5169867,
+    "longitude": 85.63021609,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "VLSTL, KALAPATHAR",
+    "state": "ODISHA",
+    "district": "CUTTACK",
+    "latitude": 20.29090761,
+    "longitude": 85.38013287,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "VLSTL, PANDALAM",
+    "state": "ODISHA",
+    "district": "CUTTACK",
+    "latitude": 20.31962695,
+    "longitude": 85.38717719,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "VLSTL, ALARA",
+    "state": "ODISHA",
+    "district": "CUTTACK",
+    "latitude": 20.4762553,
+    "longitude": 85.1208606,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "FIAC BARIPADA",
+    "state": "ODISHA",
+    "district": "MAYURBHANJ",
+    "latitude": 21.916705,
+    "longitude": 86.7273276,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "Block Agriculture Officer, Saraskana",
+    "state": "ODISHA",
+    "district": "MAYURBHANJ",
+    "latitude": 22.24112005,
+    "longitude": 86.57297589,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "FIAC, BANGRIPOSI",
+    "state": "ODISHA",
+    "district": "MAYURBHANJ",
+    "latitude": 22.1464821,
+    "longitude": 86.5400764,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "FIAC JASHIPUR",
+    "state": "ODISHA",
+    "district": "MAYURBHANJ",
+    "latitude": 21.9615268,
+    "longitude": 86.0779511,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "FIAC THAKURMUNDA",
+    "state": "ODISHA",
+    "district": "MAYURBHANJ",
+    "latitude": 21.53546349,
+    "longitude": 86.15196557,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "STL, Mayurbhanj",
+    "state": "ODISHA",
+    "district": "MAYURBHANJ",
+    "latitude": 21.68792203,
+    "longitude": 86.72421854,
+    "timing_from": "10:00:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "MSTL 1",
+    "state": "ODISHA",
+    "district": "MAYURBHANJ",
+    "latitude": 21.94202416,
+    "longitude": 86.75032128,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "MSTL 2",
+    "state": "ODISHA",
+    "district": "MAYURBHANJ",
+    "latitude": 21.9377085,
+    "longitude": 86.7399797,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "MSTL 3",
+    "state": "ODISHA",
+    "district": "MAYURBHANJ",
+    "latitude": 21.93212061,
+    "longitude": 86.73917589,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil Testing Laboratory,Malkangiri",
+    "state": "ODISHA",
+    "district": "MALKANGIRI",
+    "latitude": 18.2499663,
+    "longitude": 81.7903727,
+    "timing_from": "10:00:00",
+    "timing_to": "06:00:00"
+  },
+  {
+    "name": "Soil Testing Laboratory,Malkangiri",
+    "state": "ODISHA",
+    "district": "MALKANGIRI",
+    "latitude": 18.3950619,
+    "longitude": 82.0143637,
+    "timing_from": "10:00:00",
+    "timing_to": "06:06:00"
+  },
+  {
+    "name": "SOIL TESTING LABORATORY, MALKANGIRI",
+    "state": "ODISHA",
+    "district": "MALKANGIRI",
+    "latitude": 18.2444176,
+    "longitude": 81.93982423,
+    "timing_from": "10:00:00",
+    "timing_to": "06:00:00"
+  },
+  {
+    "name": "SOIL TESTING LABORATORY,MALKANGIRI",
+    "state": "ODISHA",
+    "district": "MALKANGIRI",
+    "latitude": 18.40797014,
+    "longitude": 82.03892212,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "SOIL TESTING LABORATORY,MALKANGIRI",
+    "state": "ODISHA",
+    "district": "MALKANGIRI",
+    "latitude": 18.3019566,
+    "longitude": 81.9407008,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "Static STL",
+    "state": "ODISHA",
+    "district": "MALKANGIRI",
+    "latitude": 18.3363868,
+    "longitude": 81.8844063,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "MSTL",
+    "state": "ODISHA",
+    "district": "MALKANGIRI",
+    "latitude": 18.3410052,
+    "longitude": 81.8769029,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Pandripani Village Level STL",
+    "state": "ODISHA",
+    "district": "MALKANGIRI",
+    "latitude": 18.35835435,
+    "longitude": 81.89823749,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Chitakonda Village Level STL",
+    "state": "ODISHA",
+    "district": "MALKANGIRI",
+    "latitude": 18.2189365,
+    "longitude": 82.14115138,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "M.V-09 Village Level STL",
+    "state": "ODISHA",
+    "district": "MALKANGIRI",
+    "latitude": 18.31356136,
+    "longitude": 81.96112343,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL Kupwara",
+    "state": "JAMMU AND KASHMIR",
+    "district": "KUPWARA",
+    "latitude": 34.52696165,
+    "longitude": 74.25191383,
+    "timing_from": "10:00:00",
+    "timing_to": "04:30:00"
+  },
+  {
+    "name": "Suhail Soil Testing Laboratory Hangah Handwara",
+    "state": "JAMMU AND KASHMIR",
+    "district": "KUPWARA",
+    "latitude": 34.36768175,
+    "longitude": 74.27266915,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL ETAH",
+    "state": "UTTAR PRADESH",
+    "district": "ETAH",
+    "latitude": 27.54513482,
+    "longitude": 78.68378294,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "mobile soil testing laboratoy",
+    "state": "ANDHRA PRADESH",
+    "district": "Bapatla",
+    "latitude": 15.90040863,
+    "longitude": 80.46913135,
+    "timing_from": "10:00:00",
+    "timing_to": "05:00:00"
+  },
+  {
+    "name": "Regional soil testing labaratory",
+    "state": "ANDHRA PRADESH",
+    "district": "Bapatla",
+    "latitude": 15.900175,
+    "longitude": 80.4699142,
+    "timing_from": "10:30:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "SOIL TESTING LABORATORY, RAYAGADA",
+    "state": "ODISHA",
+    "district": "RAYAGADA",
+    "latitude": 19.1696,
+    "longitude": 83.418,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "SOIL TESTING LABORATORY, RAYAGADA",
+    "state": "ODISHA",
+    "district": "RAYAGADA",
+    "latitude": 19.16892389,
+    "longitude": 83.41676922,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "SOIL TESTING LABORATORY, RAYAGADA",
+    "state": "ODISHA",
+    "district": "RAYAGADA",
+    "latitude": 19.17563366,
+    "longitude": 83.40041291,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "SOIL TESTING LABORATORY, RAYAGADA",
+    "state": "ODISHA",
+    "district": "RAYAGADA",
+    "latitude": 19.17931486,
+    "longitude": 83.41162682,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "SOIL TESTING LABORATORY, RAYAGADA",
+    "state": "ODISHA",
+    "district": "RAYAGADA",
+    "latitude": 19.19013805,
+    "longitude": 83.40349245,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "SOIL TESTING LABORATORY, RAYAGADA",
+    "state": "ODISHA",
+    "district": "RAYAGADA",
+    "latitude": 19.18980891,
+    "longitude": 83.41222398,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "SOIL TESTING LABORATORY, RAYAGADA",
+    "state": "ODISHA",
+    "district": "RAYAGADA",
+    "latitude": 19.1557772,
+    "longitude": 83.424822,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "SOIL TESTING LABORATORY, RAYAGADA",
+    "state": "ODISHA",
+    "district": "RAYAGADA",
+    "latitude": 19.1794705,
+    "longitude": 83.4021709,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "SOIL TESTING LABORATORY, RAYAGADA",
+    "state": "ODISHA",
+    "district": "RAYAGADA",
+    "latitude": 19.1696,
+    "longitude": 83.418,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "SOIL TESTING LABORATORY",
+    "state": "ODISHA",
+    "district": "RAYAGADA",
+    "latitude": 19.1696,
+    "longitude": 83.418,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "SOIL TESTING LABORATORY",
+    "state": "ODISHA",
+    "district": "RAYAGADA",
+    "latitude": 19.11708653,
+    "longitude": 83.47160513,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "Static Soil Testing Laboratory, Rayagada",
+    "state": "ODISHA",
+    "district": "RAYAGADA",
+    "latitude": 19.17142005,
+    "longitude": 83.41199983,
+    "timing_from": "10:00:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "Soil Testing Laboratory - Tiruvannamalai",
+    "state": "TAMIL NADU",
+    "district": "TIRUVANNAMALAI",
+    "latitude": 12.27404971,
+    "longitude": 79.06870225,
+    "timing_from": "10:00:00",
+    "timing_to": "05:45:00"
+  },
+  {
+    "name": "Mobile Soil Testing Lab",
+    "state": "TAMIL NADU",
+    "district": "TIRUVANNAMALAI",
+    "latitude": 12.27435146,
+    "longitude": 79.0667856,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "Soil Testing Laboratory, Di. Bharuch",
+    "state": "GUJARAT",
+    "district": "BHARUCH",
+    "latitude": 21.70099423,
+    "longitude": 72.98905899,
+    "timing_from": "10:30:00",
+    "timing_to": "18:10:00"
+  },
+  {
+    "name": "soil Testing lab Thiruvallur",
+    "state": "TAMIL NADU",
+    "district": "THIRUVALLUR",
+    "latitude": 13.12113577,
+    "longitude": 79.91820811,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "Soil and Leaf Analysis Laboratory Rajbagh",
+    "state": "JAMMU AND KASHMIR",
+    "district": "SRINAGAR",
+    "latitude": 34.0682414,
+    "longitude": 74.82101517,
+    "timing_from": "10:00:00",
+    "timing_to": "16:30:00"
+  },
+  {
+    "name": "SOIL TESTING LABORATORY SRINAGAR",
+    "state": "JAMMU AND KASHMIR",
+    "district": "SRINAGAR",
+    "latitude": 34.06539941,
+    "longitude": 74.81228321,
+    "timing_from": "10:00:00",
+    "timing_to": "04:30:00"
+  },
+  {
+    "name": "VSTL SGR",
+    "state": "JAMMU AND KASHMIR",
+    "district": "SRINAGAR",
+    "latitude": 34.11493608,
+    "longitude": 74.88721436,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil Testing Laboratory, Ta. Vyara, Di. Tapi",
+    "state": "GUJARAT",
+    "district": "TAPI",
+    "latitude": 21.1034829,
+    "longitude": 73.3916155,
+    "timing_from": "10:30:00",
+    "timing_to": "18:10:00"
+  },
+  {
+    "name": "SOIL SURVAY AND SOIL TESTING LAB",
+    "state": "MAHARASHTRA",
+    "district": "RAIGAD",
+    "latitude": 18.66124796,
+    "longitude": 72.8923737,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil Testing Lab, Vellore",
+    "state": "TAMIL NADU",
+    "district": "VELLORE",
+    "latitude": 12.9218051,
+    "longitude": 78.87440792,
+    "timing_from": "10:00:00",
+    "timing_to": "05:45:00"
+  },
+  {
+    "name": "SOIL TESTING LABORATORY",
+    "state": "TAMIL NADU",
+    "district": "THE NILGIRIS",
+    "latitude": 11.40637482,
+    "longitude": 76.70873503,
+    "timing_from": "10:00:00",
+    "timing_to": "17:45:00"
+  },
+  {
+    "name": "soil testing lab raigarh",
+    "state": "CHHATTISGARH",
+    "district": "RAIGARH",
+    "latitude": 21.85697465,
+    "longitude": 83.37055411,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "stl raigarh",
+    "state": "CHHATTISGARH",
+    "district": "RAIGARH",
+    "latitude": 21.89799243,
+    "longitude": 83.41395454,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "STL Tadepalligudem",
+    "state": "ANDHRA PRADESH",
+    "district": "WEST GODAVARI",
+    "latitude": 16.82304671,
+    "longitude": 81.51824018,
+    "timing_from": "10:30:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "AMC Bhimavaram STL",
+    "state": "ANDHRA PRADESH",
+    "district": "WEST GODAVARI",
+    "latitude": 16.55388321,
+    "longitude": 81.53666812,
+    "timing_from": "10:30:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "District Soil Survey And Soil Testing Officer, Gad",
+    "state": "MAHARASHTRA",
+    "district": "GADCHIROLI",
+    "latitude": 20.17180192,
+    "longitude": 79.97372218,
+    "timing_from": "09:45:00",
+    "timing_to": "18:15:00"
+  },
+  {
+    "name": "District Soil Survey And Soil Testing Officer, Gad",
+    "state": "MAHARASHTRA",
+    "district": "GADCHIROLI",
+    "latitude": 20.1713414,
+    "longitude": 79.9504683,
+    "timing_from": "09:45:00",
+    "timing_to": "18:15:00"
+  },
+  {
+    "name": "soil testing lab harda",
+    "state": "MADHYA PRADESH",
+    "district": "HARDA",
+    "latitude": 22.33996749,
+    "longitude": 77.10209647,
+    "timing_from": "10:30:00",
+    "timing_to": "05:30:00"
+  },
+  {
+    "name": "Delhi STL Demo",
+    "state": "DELHI",
+    "district": "SOUTH",
+    "latitude": 28.50724767,
+    "longitude": 77.14839412,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Delhi South VLSTL",
+    "state": "DELHI",
+    "district": "SOUTH",
+    "latitude": 28.373381,
+    "longitude": 77.1189594,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Assistant soil survey office, Sidhi",
+    "state": "MADHYA PRADESH",
+    "district": "SIDHI",
+    "latitude": 24.4163329,
+    "longitude": 81.92827176,
+    "timing_from": "10:00:00",
+    "timing_to": "18:00:00"
+  },
+  {
+    "name": "Static STL",
+    "state": "ODISHA",
+    "district": "KENDRAPARA",
+    "latitude": 20.48755664,
+    "longitude": 86.41665988,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "MSTL",
+    "state": "ODISHA",
+    "district": "KENDRAPARA",
+    "latitude": 20.49842421,
+    "longitude": 86.42250948,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "FIAC NARLA",
+    "state": "ODISHA",
+    "district": "KALAHANDI",
+    "latitude": 20.0585775,
+    "longitude": 83.38395507,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "FIAC BHAWANIPATNA",
+    "state": "ODISHA",
+    "district": "KALAHANDI",
+    "latitude": 19.91785152,
+    "longitude": 83.15846065,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "FIAC TH.RAMPUR",
+    "state": "ODISHA",
+    "district": "KALAHANDI",
+    "latitude": 19.5470442,
+    "longitude": 82.93229023,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "FIAC M.RAMPUR",
+    "state": "ODISHA",
+    "district": "KALAHANDI",
+    "latitude": 20.20319328,
+    "longitude": 83.51930715,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "FIAC KARLAMUNDA",
+    "state": "ODISHA",
+    "district": "KALAHANDI",
+    "latitude": 20.35697175,
+    "longitude": 83.45703897,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "FIAC KOKSARA",
+    "state": "ODISHA",
+    "district": "KALAHANDI",
+    "latitude": 19.67244659,
+    "longitude": 82.70416716,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "FIAC LANJIGARH",
+    "state": "ODISHA",
+    "district": "KALAHANDI",
+    "latitude": 19.71001562,
+    "longitude": 83.36536012,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "FIAC DHARMAGARH",
+    "state": "ODISHA",
+    "district": "KALAHANDI",
+    "latitude": 19.87467983,
+    "longitude": 82.75385657,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "FIAC KESINGA",
+    "state": "ODISHA",
+    "district": "KALAHANDI",
+    "latitude": 20.16829505,
+    "longitude": 83.22559548,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "FIAC KALAMPUR",
+    "state": "ODISHA",
+    "district": "KALAHANDI",
+    "latitude": 19.61455616,
+    "longitude": 82.88625896,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "FIAC JUNAGARH",
+    "state": "ODISHA",
+    "district": "KALAHANDI",
+    "latitude": 19.86019767,
+    "longitude": 82.92828609,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "Soil Testing Laboratory,chengalpattu",
+    "state": "TAMIL NADU",
+    "district": "CHENGALPATTU",
+    "latitude": 12.50732628,
+    "longitude": 79.88195178,
+    "timing_from": "10:15:00",
+    "timing_to": "17:45:00"
+  },
+  {
+    "name": "FIAC JAIPATNA",
+    "state": "ODISHA",
+    "district": "KALAHANDI",
+    "latitude": 19.66300369,
+    "longitude": 82.89500264,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "FIAC GOLAMUNDA",
+    "state": "ODISHA",
+    "district": "KALAHANDI",
+    "latitude": 20.0555894,
+    "longitude": 82.7913822,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "VSTL MINGUR",
+    "state": "ODISHA",
+    "district": "KALAHANDI",
+    "latitude": 19.52899305,
+    "longitude": 82.77506997,
+    "timing_from": "10:00:00",
+    "timing_to": "17:00:00"
+  },
+  {
+    "name": "Static STL",
+    "state": "ODISHA",
+    "district": "KALAHANDI",
+    "latitude": 19.9227214,
+    "longitude": 83.1646061,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "MSTL 1",
+    "state": "ODISHA",
+    "district": "KALAHANDI",
+    "latitude": 19.8923778,
+    "longitude": 83.137273,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "MSTL 2",
+    "state": "ODISHA",
+    "district": "KALAHANDI",
+    "latitude": 19.90693441,
+    "longitude": 83.15262479,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "MSTL 3",
+    "state": "ODISHA",
+    "district": "KALAHANDI",
+    "latitude": 19.9174546,
+    "longitude": 83.1643019,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "ZIRAAT VILLAGE LEVEL SOIL TESTING LAB",
+    "state": "JAMMU AND KASHMIR",
+    "district": "PULWAMA",
+    "latitude": 33.86993941,
+    "longitude": 74.90797075,
+    "timing_from": "09:00:00",
+    "timing_to": "04:30:00"
+  },
+  {
+    "name": "Static soil testing laboratory pulwama",
+    "state": "JAMMU AND KASHMIR",
+    "district": "PULWAMA",
+    "latitude": 33.87158053,
+    "longitude": 74.91109055,
+    "timing_from": "10:00:00",
+    "timing_to": "04:30:00"
+  },
+  {
+    "name": "THE PULWAMA VILLAGE LEVEL SOIL TESTING LAB",
+    "state": "JAMMU AND KASHMIR",
+    "district": "PULWAMA",
+    "latitude": 33.8141511,
+    "longitude": 75.00065615,
+    "timing_from": "10:00:00",
+    "timing_to": "16:00:00"
+  },
+  {
+    "name": "ZIRAAT VILLAGE LEVEL SOIL TESTING LAB",
+    "state": "JAMMU AND KASHMIR",
+    "district": "PULWAMA",
+    "latitude": 33.8699387,
+    "longitude": 74.90798203,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "SOIL TESTING LABORATORY  PULWAMA",
+    "state": "JAMMU AND KASHMIR",
+    "district": "PULWAMA",
+    "latitude": 33.88957204,
+    "longitude": 74.89703872,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL PULWAMA",
+    "state": "JAMMU AND KASHMIR",
+    "district": "PULWAMA",
+    "latitude": 33.86949765,
+    "longitude": 74.8489316,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "SSTLSEPAHIJALA",
+    "state": "TRIPURA",
+    "district": "Sepahijala",
+    "latitude": 23.80921479,
+    "longitude": 91.26692251,
+    "timing_from": "10:00:00",
+    "timing_to": "17:30:00"
+  },
+  {
+    "name": "District Soil Conservation Office",
+    "state": "NAGALAND",
+    "district": "MOKOKCHUNG",
+    "latitude": 26.3281122,
+    "longitude": 94.5224889,
+    "timing_from": "10:00:00",
+    "timing_to": "16:00:00"
+  },
+  {
+    "name": "STL, Ongpangkong(N)",
+    "state": "NAGALAND",
+    "district": "MOKOKCHUNG",
+    "latitude": 26.3268267,
+    "longitude": 94.5333827,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Ongpangkong(S)",
+    "state": "NAGALAND",
+    "district": "MOKOKCHUNG",
+    "latitude": 26.38290051,
+    "longitude": 94.44478362,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Kubulong",
+    "state": "NAGALAND",
+    "district": "MOKOKCHUNG",
+    "latitude": 26.4360799,
+    "longitude": 94.4910652,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Chuchuyimlang",
+    "state": "NAGALAND",
+    "district": "MOKOKCHUNG",
+    "latitude": 26.4581428,
+    "longitude": 94.640089,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Changtongya",
+    "state": "NAGALAND",
+    "district": "MOKOKCHUNG",
+    "latitude": 26.52168474,
+    "longitude": 94.67688029,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Tuli",
+    "state": "NAGALAND",
+    "district": "MOKOKCHUNG",
+    "latitude": 26.66472625,
+    "longitude": 94.64480222,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Mangkolemba",
+    "state": "NAGALAND",
+    "district": "MOKOKCHUNG",
+    "latitude": 26.4746519,
+    "longitude": 94.4107281,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Alongkhima",
+    "state": "NAGALAND",
+    "district": "MOKOKCHUNG",
+    "latitude": 26.54346476,
+    "longitude": 94.51661518,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "STL, Longchem",
+    "state": "NAGALAND",
+    "district": "MOKOKCHUNG",
+    "latitude": 26.6150425,
+    "longitude": 94.4994592,
+    "timing_from": "",
+    "timing_to": ""
+  },
+  {
+    "name": "Soil Testing Laboratory, Hooghly",
+    "state": "WEST BENGAL",
+    "district": "HOOGHLY",
+    "latitude": 22.89405358,
+    "longitude": 88.36644724,
+    "timing_from": "",
+    "timing_to": ""
+  }
+]

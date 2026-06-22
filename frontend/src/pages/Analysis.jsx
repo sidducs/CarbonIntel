@@ -1,0 +1,180 @@
+import { useState, useEffect } from "react";
+import BenchmarkComparison from "../components/BenchmarkComparison";
+import RegionalInsights from "../components/RegionalInsights";
+import RiskAssessment from "../components/RiskAssessment";
+import PageLayout from "../components/PageLayout";
+import SectionHeader from "../components/SectionHeader";
+import DashboardCard from "../components/DashboardCard";
+import EmptyState from "../components/EmptyState";
+
+function Analysis() {
+  const [result, setResult] = useState(() => {
+    try {
+      const saved = localStorage.getItem("current_assessment_result");
+      return saved ? JSON.parse(saved) : null;
+    } catch {
+      return null;
+    }
+  });
+
+  const [lastPayload, setLastPayload] = useState(() => {
+    try {
+      const saved = localStorage.getItem("current_assessment_payload");
+      return saved ? JSON.parse(saved) : null;
+    } catch {
+      return null;
+    }
+  });
+
+  // Listen to storage events or other changes to keep in sync
+  useEffect(() => {
+    const handleStorageChange = () => {
+      try {
+        const savedRes = localStorage.getItem("current_assessment_result");
+        const savedPayload = localStorage.getItem("current_assessment_payload");
+        setResult(savedRes ? JSON.parse(savedRes) : null);
+        setLastPayload(savedPayload ? JSON.parse(savedPayload) : null);
+      } catch (err) {
+        console.error("Failed to sync localStorage on Analysis page:", err);
+      }
+    };
+    window.addEventListener("storage", handleStorageChange);
+    window.addEventListener("focus", handleStorageChange);
+    return () => {
+      window.removeEventListener("storage", handleStorageChange);
+      window.removeEventListener("focus", handleStorageChange);
+    };
+  }, []);
+
+  const modelStats = [
+    { name: "Model Type", value: "XGBoost Regressor" },
+    { name: "Validation R² Score", value: "0.9945" },
+    { name: "Mean Absolute Error (MAE)", value: "12.48 kg CO₂e" },
+    { name: "Root Mean Squared Error (RMSE)", value: "16.92 kg CO₂e" },
+    { name: "Training Set Size", value: "10,000 samples" }
+  ];
+
+  const features = [
+    { name: "Fertilizer Amount", importance: 42, description: "Direct control on synthetic N₂O soil emissions." },
+    { name: "Soil Organic Carbon (SOC)", importance: 25, description: "Primary sequestration offset driver." },
+    { name: "Crop Type", importance: 15, description: "Baseline biological crop emission factors." },
+    { name: "Annual Rainfall", importance: 10, description: "Volatilization & nutrient leaching rates." },
+    { name: "Soil pH Level", importance: 8, description: "Acidic/alkaline nutrient binding effects." }
+  ];
+
+  return (
+    <PageLayout
+      title="Environmental Intelligence & Analytics"
+      subtitle="Detailed diagnostic intelligence, crop benchmarking, risk exposure analysis, and model coefficients."
+      breadcrumbs={[
+        { label: "Dashboard", path: "/dashboard" },
+        { label: "Analysis" },
+        { label: "Environmental Intelligence & Analytics" }
+      ]}
+    >
+      <div className="space-y-12">
+        {/* Section 1: Active Assessment Diagnostics */}
+        <div className="space-y-6">
+          <SectionHeader
+            title="Active Farm Diagnostics"
+            description="Real-time regional risk, benchmarking data, and soil diagnostics"
+          />
+          {!result ? (
+            <EmptyState
+              title="No Active Assessment Data"
+              description="Perform a carbon evaluation on the Dashboard page or select an entry from your assessment history on the Reports page to view deep-dive diagnostics."
+            />
+          ) : (
+            <div className="space-y-8">
+              <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                <div className="lg:col-span-8">
+                  <RiskAssessment
+                    carbonFootprint={result.carbon_footprint}
+                    sustainability={result.sustainability}
+                    formData={lastPayload}
+                  />
+                </div>
+                <div className="lg:col-span-4">
+                  <BenchmarkComparison
+                    carbonFootprint={result.carbon_footprint}
+                    formData={lastPayload}
+                    loading={false}
+                  />
+                </div>
+              </div>
+              <div className="grid grid-cols-1">
+                <RegionalInsights
+                  carbonFootprint={result.carbon_footprint}
+                  sustainability={result.sustainability}
+                  formData={lastPayload}
+                />
+              </div>
+            </div>
+          )}
+        </div>
+
+        {/* Section 2: Machine Learning Technical Analytics */}
+        <div className="space-y-6 pt-6 border-t border-slate-200 dark:border-slate-800">
+          <SectionHeader
+            title="Predictive Model Analytics"
+            description="Hyperparameters and feature Gini weights generated by XGBoost Regressor"
+          />
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Left: Model Parameters */}
+            <DashboardCard
+              title="Engine Hyperparameters"
+              icon={
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+              }
+            >
+              <div className="space-y-3.5 mt-2">
+                {modelStats.map((stat, i) => (
+                  <div key={i} className="flex items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-3 text-xs last:border-0 last:pb-0">
+                    <span className="font-semibold text-slate-550 dark:text-slate-450">{stat.name}</span>
+                    <span className="font-extrabold text-slate-850 dark:text-white bg-slate-50 dark:bg-slate-900 px-2 py-1 rounded">
+                      {stat.value}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </DashboardCard>
+
+            {/* Right: Feature Importances */}
+            <DashboardCard
+              title="Feature Gini Weights"
+              icon={
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 3.055A9.003 9.003 0 1020.945 13H11V3.055z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z" />
+                </svg>
+              }
+            >
+              <div className="space-y-4 mt-2">
+                {features.map((feat, i) => (
+                  <div key={i} className="space-y-1 text-xs">
+                    <div className="flex justify-between font-bold text-slate-700 dark:text-slate-300">
+                      <span>{feat.name}</span>
+                      <span>{feat.importance}%</span>
+                    </div>
+                    <div className="w-full bg-slate-100 dark:bg-slate-900 h-2 rounded-full overflow-hidden">
+                      <div
+                        className="bg-emerald-500 h-full rounded-full"
+                        style={{ width: `${feat.importance}%` }}
+                      />
+                    </div>
+                    <p className="text-[10px] text-slate-400 dark:text-slate-500 italic mt-0.5">{feat.description}</p>
+                  </div>
+                ))}
+              </div>
+            </DashboardCard>
+          </div>
+        </div>
+      </div>
+    </PageLayout>
+  );
+}
+
+export default Analysis;

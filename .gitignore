@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment Variables
+.env
+.env.*
+
+# Logs
+*.log
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Machine Learning Models
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.onnx
+*.pt
+*.pth
+
+# Dataset Files (optional)
+*.xlsx
+*.xls
+
+# Temporary Files
+temp/
+tmp/
+*.tmp
+
+# Cache
+.cache/
+
+# Node.js (if frontend exists)
+node_modules/
+npm-debug.log*
+
+# React Build
+frontend/build/
+frontend/dist/
+
+# Secrets
+credentials.json
+service-account.json
+config/secrets.json
