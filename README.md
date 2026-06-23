@@ -16,28 +16,32 @@ CarbonIntel is a high-performance, single-page progressive workflow platform des
 ```mermaid
 graph TD
     %% Location Inputs
-    A[📍 Location Mode] -->|Select District| B[🏢 Karnataka Districts Static Mapping]
-    A -->|Search Address| C[🔍 Open-Meteo Geocoding Autocomplete]
-    A -->|Map Pin| D[🗺️ Leaflet Interactive Map Coordinates]
+    A["📍 Location Mode"] --> B["🏢 Karnataka Districts Static Mapping"]
+    A --> C["🔍 Open-Meteo Geocoding Autocomplete"]
+    A --> D["🗺️ Leaflet Interactive Map Coordinates"]
 
     %% Data Fetching Orchestration
-    B & C & D -->|Triggers Coord Resolution| E[🛡️ Environmental Data Pipeline]
+    B --> E["🛡️ Environmental Data Pipeline"]
+    C --> E
+    D --> E
     
     %% Weather & Soil Services
-    E -->|NASA POWER API| F[🌦️ Climatological Profile: Temp, Rain, Humidity]
+    E --> F["🌦️ Climatological Profile: Temp, Rain, Humidity"]
     
     %% Hybrid Soil Intelligence
-    E -->|Lookup Defaults| G1[(District Soil Database)]
-    E -->|Fetch Fallback| G2[🌐 ISRIC SoilGrids REST API]
-    G1 & G2 --> H[🧪 Hydrid Soil Intelligence: N, P, K, pH, SOC]
-    H -->|Manual Override| I[📝 Custom Fields]
+    E --> G1["🗄️ District Soil Database"]
+    E --> G2["🌐 ISRIC SoilGrids REST API"]
+    G1 --> H["🧪 Hybrid Soil Intelligence: N, P, K, pH, SOC"]
+    G2 --> H
+    H --> I["📝 Custom Fields (Manual Override)"]
     
     %% AIKosh Lab Directory
-    E -->|Haversine Formula| J[🧬 AIKosh Laboratory Directory: Nearest Testing Lab]
+    E --> J["🧬 AIKosh Laboratory Directory: Nearest Testing Lab"]
 
     %% ML Engine & Outputs
-    I & F -->|POST /predict| K[⚙️ FastAPI ML Inference Model]
-    K -->|Returns Predictions| L[📊 Results Panel & What-If Simulator]
+    I --> K["⚙️ FastAPI ML Inference Model"]
+    F --> K
+    K --> L["📊 Results Panel & What-If Simulator"]
 ```
 
 ---
