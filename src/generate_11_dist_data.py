@@ -5,6 +5,7 @@ import math
 
 # Define paths
 SOIL_SAMPLE_PATH = r"c:\Users\Siddu\Desktop\CarbonFootprintML\research\soil\soil_sample.csv"
+EXTERNAL_DATA_PATH = r"c:\Users\Siddu\Desktop\CarbonFootprintML\data\raw\external_soil_data.csv"
 OUTPUT_PATH = r"c:\Users\Siddu\Desktop\CarbonFootprintML\data\agriculture_dataset.csv"
 
 # District definitions and their official soil distributions (Mean, Std Dev)
@@ -206,6 +207,38 @@ def generate_11_dist_data():
         
     print(f"Loaded {chitradurga_rows_count} real cleaned records for Chitradurga.")
     
+    # 1.5 READ EXTERNAL REAL SOIL DATA
+    external_rows_count = 0
+    if os.path.exists(EXTERNAL_DATA_PATH):
+        print("Reading and appending external real soil data (from Kaggle/Google)...")
+        with open(EXTERNAL_DATA_PATH, 'r', encoding='utf-8') as f:
+            reader = csv.reader(f)
+            headers = next(reader)
+            for row in reader:
+                if not row:
+                    continue
+                try:
+                    crop = row[0]
+                    soc = float(row[1])
+                    n = float(row[2])
+                    p = float(row[3])
+                    k = float(row[4])
+                    ph = float(row[5])
+                    fert_type = row[6]
+                    fert_amount = float(row[7])
+                    temp = float(row[8])
+                    rain = float(row[9])
+                    hum = float(row[10])
+                    footprint = float(row[11])
+                    
+                    compiled_rows.append([
+                        crop, soc, n, p, k, ph, fert_type, fert_amount, temp, rain, hum, footprint
+                    ])
+                    external_rows_count += 1
+                except Exception as e:
+                    continue
+        print(f"Loaded {external_rows_count} external real records.")
+        
     # 2. GENERATE SAMPLED DATA FOR 10 OTHER DISTRICTS
     print("Generating sampled soil distributions for other 10 priority districts...")
     sampled_dist_count = 0
