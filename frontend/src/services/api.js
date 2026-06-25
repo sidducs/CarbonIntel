@@ -33,4 +33,8 @@ export const predictCarbonFootprint = async (data) => {
   return fetchWithRetry(() => api.post("/predict", data).then((res) => res.data));
 };
 
+export const fetchModelMetrics = async () => {
+  return fetchWithRetry(() => api.get("/model/metrics").then((res) => res.data));
+};
+
 export default api;

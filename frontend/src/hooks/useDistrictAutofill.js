@@ -4,19 +4,38 @@ import { fetchSoilData } from "../services/soilGridsService";
 import { getWeather } from "../services/weatherService";
 import { constraints } from "../utils/constants";
 
-// Static center coordinates for the 11 Karnataka districts to bypass error-prone runtime geocoding
+// Static center coordinates for the Karnataka districts to bypass error-prone runtime geocoding
 const districtCoordinates = {
-  "Belagavi": { lat: 15.8497, lng: 74.4977 },
   "Bagalkot": { lat: 16.1817, lng: 75.6958 },
-  "Vijayapura": { lat: 16.8302, lng: 75.7100 },
-  "Dharwad": { lat: 15.4589, lng: 75.0078 },
+  "Bangalore Rural": { lat: 13.2500, lng: 77.5000 },
+  "Bangalore Urban": { lat: 12.9716, lng: 77.5946 },
+  "Belagavi": { lat: 15.8497, lng: 74.4977 },
+  "Ballari": { lat: 15.1394, lng: 76.9214 },
+  "Bidar": { lat: 17.9104, lng: 77.5199 },
+  "Chamarajanagar": { lat: 11.9261, lng: 76.9402 },
+  "Chikkaballapur": { lat: 13.4354, lng: 77.7277 },
+  "Chikkamagaluru": { lat: 13.3161, lng: 75.7858 },
   "Chitradurga": { lat: 14.2251, lng: 76.3980 },
-  "Davanagere": { lat: 14.4644, lng: 75.9218 },
-  "Mysuru": { lat: 12.2958, lng: 76.6394 },
-  "Shivamogga": { lat: 13.9299, lng: 75.5681 },
   "Dakshina Kannada": { lat: 12.7850, lng: 75.2479 },
+  "Davanagere": { lat: 14.4644, lng: 75.9218 },
+  "Dharwad": { lat: 15.4589, lng: 75.0078 },
+  "Gadag": { lat: 15.4246, lng: 75.6264 },
+  "Kalaburagi": { lat: 17.3297, lng: 76.8343 },
+  "Hassan": { lat: 13.0072, lng: 76.1026 },
+  "Haveri": { lat: 14.7937, lng: 75.4022 },
+  "Kodagu": { lat: 12.3375, lng: 75.8069 },
+  "Kolar": { lat: 13.1367, lng: 78.1292 },
+  "Koppal": { lat: 15.3467, lng: 76.1553 },
+  "Mandya": { lat: 12.5218, lng: 76.8973 },
+  "Mysuru": { lat: 12.2958, lng: 76.6394 },
   "Raichur": { lat: 16.2120, lng: 77.3556 },
-  "Kolar": { lat: 13.1367, lng: 78.1292 }
+  "Ramanagara": { lat: 12.7150, lng: 77.2813 },
+  "Shivamogga": { lat: 13.9299, lng: 75.5681 },
+  "Tumakuru": { lat: 13.3392, lng: 77.1140 },
+  "Udupi": { lat: 13.3409, lng: 74.7421 },
+  "Uttara Kannada": { lat: 14.6196, lng: 74.8354 },
+  "Vijayanagara": { lat: 15.2680, lng: 76.3909 },
+  "Yadgir": { lat: 16.7645, lng: 77.1309 }
 };
 
 // Helper to clamp real-world metrics to ML model input validation boundaries

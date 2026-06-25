@@ -198,7 +198,7 @@ function ExecutiveSummary({ formData, carbonFootprint, sustainability }) {
             </div>
             <div>
               <span className="text-[10px] text-slate-400 dark:text-slate-500 block font-bold uppercase">Estimated Value</span>
-              <span className="text-slate-800 dark:text-slate-100 font-extrabold">${revenue.toLocaleString()} USD/ha</span>
+              <span className="text-slate-800 dark:text-slate-100 font-extrabold">₹{revenue.toLocaleString()} INR/ha</span>
             </div>
           </div>
         </div>

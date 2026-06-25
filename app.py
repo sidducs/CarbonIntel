@@ -175,3 +175,22 @@ def predict_footprint(data: FarmDataInput):
         
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Prediction error: {str(e)}")
+
+import json
+
+@app.get("/model/metrics")
+def get_model_metrics():
+    """
+    Returns real-time model evaluation metrics, dataset metadata, 
+    and feature importances.
+    """
+    metrics_path = 'models/model_metrics.json'
+    if not os.path.exists(metrics_path):
+        raise HTTPException(status_code=404, detail="Model metrics metadata file not found.")
+    try:
+        with open(metrics_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        return data
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to read model metrics: {str(e)}")
+

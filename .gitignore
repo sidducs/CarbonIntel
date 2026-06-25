@@ -46,6 +46,12 @@ htmlcov/
 *.pt
 *.pth
 
+# Allow trained models and metadata
+!models/model.pkl
+!models/model_metadata.pkl
+!models/feature_list.pkl
+!models/model_metrics.json
+
 # Dataset Files (optional)
 *.xlsx
 *.xls
@@ -54,6 +60,8 @@ htmlcov/
 temp/
 tmp/
 *.tmp
+~$*
+*~$
 
 # Cache
 .cache/

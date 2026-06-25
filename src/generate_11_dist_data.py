@@ -4,53 +4,115 @@ import random
 import math
 
 # Define paths
-SOIL_SAMPLE_PATH = r"c:\Users\Siddu\Desktop\CarbonFootprintML\research\soil\soil_sample.csv"
-EXTERNAL_DATA_PATH = r"c:\Users\Siddu\Desktop\CarbonFootprintML\data\raw\external_soil_data.csv"
+SOIL_SAMPLE_PATH = r"c:\Users\Siddu\Desktop\CarbonFootprintML\data\soil_sample.csv"
+EXTERNAL_DATA_PATH = r"c:\Users\Siddu\Desktop\CarbonFootprintML\data\external_soil_data.csv"
 OUTPUT_PATH = r"c:\Users\Siddu\Desktop\CarbonFootprintML\data\agriculture_dataset.csv"
 
 # District definitions and their official soil distributions (Mean, Std Dev)
 # [N_mean, N_std, P_mean, P_std, K_mean, K_std, pH_mean, pH_std, OC_mean, OC_std]
 soil_stats = {
-    'Bagalkot': [140.0, 25.0, 20.0, 5.0, 320.0, 45.0, 8.0, 0.3, 0.45, 0.08],
-    'Vijayapura': [120.0, 20.0, 16.0, 4.0, 340.0, 50.0, 8.2, 0.25, 0.40, 0.06],
+    'Bagalkot': [380.0, 50.0, 20.0, 5.0, 320.0, 45.0, 8.0, 0.3, 0.45, 0.08],
+    'Bangalore Rural': [160.0, 25.0, 18.0, 4.0, 210.0, 30.0, 6.8, 0.35, 0.48, 0.09],
+    'Bangalore Urban': [155.0, 24.0, 17.0, 4.0, 205.0, 28.0, 6.7, 0.35, 0.46, 0.08],
     'Belagavi': [210.0, 35.0, 22.0, 6.0, 280.0, 40.0, 7.4, 0.4, 0.65, 0.12],
-    'Dharwad': [190.0, 30.0, 24.0, 5.5, 260.0, 35.0, 7.6, 0.35, 0.58, 0.10],
-    'Raichur': [130.0, 22.0, 18.0, 5.0, 310.0, 40.0, 8.1, 0.25, 0.42, 0.07],
-    'Koppal': [135.0, 24.0, 14.0, 4.0, 220.0, 30.0, 7.8, 0.3, 0.44, 0.08],
     'Ballari': [125.0, 22.0, 15.0, 4.5, 300.0, 45.0, 8.0, 0.3, 0.41, 0.07],
-    'Tumakuru': [150.0, 25.0, 12.0, 3.5, 210.0, 30.0, 6.5, 0.4, 0.50, 0.09],
+    'Bidar': [135.0, 22.0, 14.0, 4.0, 270.0, 35.0, 7.9, 0.3, 0.48, 0.08],
+    'Chamarajanagar': [150.0, 25.0, 16.0, 4.0, 220.0, 30.0, 7.1, 0.35, 0.52, 0.09],
+    'Chikkaballapur': [115.0, 20.0, 17.0, 4.0, 195.0, 25.0, 7.2, 0.3, 0.39, 0.07],
+    'Chikkamagaluru': [240.0, 38.0, 13.0, 3.5, 170.0, 25.0, 5.8, 0.45, 0.95, 0.18],
+    'Chitradurga': [85.0, 15.0, 18.0, 4.0, 92.0, 15.0, 7.1, 0.3, 0.45, 0.08],
+    'Dakshina Kannada': [260.0, 40.0, 10.0, 3.0, 130.0, 20.0, 5.2, 0.4, 1.15, 0.25],
+    'Davanagere': [160.0, 28.0, 22.0, 5.0, 250.0, 35.0, 7.0, 0.35, 0.52, 0.10],
+    'Dharwad': [190.0, 30.0, 24.0, 5.5, 260.0, 35.0, 7.6, 0.35, 0.58, 0.10],
+    'Gadag': [130.0, 22.0, 18.0, 4.0, 290.0, 40.0, 7.9, 0.3, 0.43, 0.07],
+    'Kalaburagi': [120.0, 20.0, 15.0, 4.0, 330.0, 48.0, 8.1, 0.25, 0.40, 0.06],
+    'Hassan': [200.0, 30.0, 16.0, 4.0, 210.0, 30.0, 6.2, 0.4, 0.75, 0.13],
+    'Haveri': [175.0, 26.0, 20.0, 5.0, 240.0, 35.0, 7.3, 0.35, 0.55, 0.10],
+    'Kodagu': [280.0, 45.0, 11.0, 3.0, 140.0, 22.0, 5.4, 0.5, 1.30, 0.28],
+    'Kolar': [110.0, 18.0, 18.0, 4.0, 190.0, 25.0, 7.3, 0.3, 0.38, 0.07],
+    'Koppal': [135.0, 24.0, 14.0, 4.0, 220.0, 30.0, 7.8, 0.3, 0.44, 0.08],
+    'Mandya': [195.0, 30.0, 23.0, 5.0, 230.0, 35.0, 7.0, 0.35, 0.58, 0.11],
     'Mysuru': [180.0, 28.0, 20.0, 5.0, 240.0, 35.0, 6.9, 0.35, 0.55, 0.10],
-    'Dakshina Kannada': [260.0, 40.0, 10.0, 3.0, 130.0, 20.0, 5.2, 0.4, 1.15, 0.25]
+    'Raichur': [130.0, 22.0, 18.0, 5.0, 310.0, 40.0, 8.1, 0.25, 0.42, 0.07],
+    'Ramanagara': [145.0, 24.0, 16.0, 4.0, 200.0, 28.0, 6.9, 0.35, 0.49, 0.09],
+    'Shivamogga': [220.0, 35.0, 15.0, 4.0, 180.0, 25.0, 6.0, 0.4, 0.85, 0.15],
+    'Tumakuru': [150.0, 25.0, 12.0, 3.5, 210.0, 30.0, 6.5, 0.4, 0.50, 0.09],
+    'Udupi': [250.0, 38.0, 9.0, 2.5, 125.0, 18.0, 5.3, 0.4, 1.10, 0.22],
+    'Uttara Kannada': [270.0, 42.0, 11.0, 3.0, 135.0, 20.0, 5.5, 0.45, 1.20, 0.26],
+    'Vijayapura': [120.0, 20.0, 16.0, 4.0, 340.0, 50.0, 8.2, 0.25, 0.40, 0.06],
+    'Vijayanagara': [128.0, 22.0, 15.0, 4.0, 295.0, 42.0, 7.95, 0.3, 0.42, 0.07],
+    'Yadgir': [125.0, 21.0, 16.0, 4.0, 300.0, 44.0, 8.0, 0.28, 0.41, 0.07]
 }
 
 # District weather distributions
 # [Temp_mean, Temp_std, Rain_mean, Rain_std, Hum_mean, Hum_std]
 weather_stats = {
     'Bagalkot': [26.8, 2.0, 560.0, 80.0, 52.0, 5.0],
-    'Vijayapura': [27.2, 2.0, 580.0, 80.0, 48.0, 5.0],
+    'Bangalore Rural': [23.2, 1.6, 820.0, 110.0, 64.0, 5.5],
+    'Bangalore Urban': [23.5, 1.5, 840.0, 110.0, 63.0, 5.0],
     'Belagavi': [23.5, 1.5, 1200.0, 200.0, 72.0, 6.0],
-    'Dharwad': [24.5, 1.5, 780.0, 100.0, 65.0, 6.0],
-    'Raichur': [28.5, 2.0, 640.0, 90.0, 50.0, 5.0],
-    'Koppal': [27.8, 2.0, 600.0, 80.0, 52.0, 5.0],
     'Ballari': [28.2, 2.0, 630.0, 90.0, 51.0, 5.0],
-    'Tumakuru': [24.0, 1.8, 690.0, 100.0, 62.0, 6.0],
-    'Mysuru': [23.8, 1.5, 760.0, 110.0, 68.0, 6.0],
+    'Bidar': [26.2, 2.2, 790.0, 110.0, 55.0, 6.0],
+    'Chamarajanagar': [24.1, 1.4, 750.0, 100.0, 66.0, 5.5],
+    'Chikkaballapur': [23.6, 1.7, 720.0, 100.0, 61.0, 5.5],
+    'Chikkamagaluru': [21.8, 1.8, 1850.0, 250.0, 78.0, 6.5],
+    'Chitradurga': [25.8, 1.8, 580.0, 80.0, 56.0, 6.0],
     'Dakshina Kannada': [27.5, 1.2, 3800.0, 400.0, 82.0, 5.0],
-    'Chitradurga': [25.8, 1.8, 580.0, 80.0, 56.0, 6.0]
+    'Davanagere': [25.5, 1.6, 680.0, 90.0, 60.0, 5.5],
+    'Dharwad': [24.5, 1.5, 780.0, 100.0, 65.0, 6.0],
+    'Gadag': [26.0, 1.8, 610.0, 85.0, 54.0, 5.0],
+    'Kalaburagi': [28.0, 2.1, 750.0, 105.0, 49.0, 5.0],
+    'Hassan': [22.5, 1.4, 1050.0, 150.0, 71.0, 6.0],
+    'Haveri': [25.2, 1.6, 730.0, 95.0, 63.0, 5.5],
+    'Kodagu': [19.8, 2.0, 2600.0, 350.0, 84.0, 7.0],
+    'Kolar': [23.8, 1.6, 710.0, 95.0, 60.0, 5.5],
+    'Koppal': [27.8, 2.0, 600.0, 80.0, 52.0, 5.0],
+    'Mandya': [24.2, 1.5, 700.0, 90.0, 65.0, 5.5],
+    'Mysuru': [23.8, 1.5, 760.0, 110.0, 68.0, 6.0],
+    'Raichur': [28.5, 2.0, 640.0, 90.0, 50.0, 5.0],
+    'Ramanagara': [23.9, 1.5, 780.0, 100.0, 64.0, 5.5],
+    'Shivamogga': [24.0, 1.8, 1750.0, 220.0, 74.0, 6.0],
+    'Tumakuru': [24.0, 1.8, 690.0, 100.0, 62.0, 6.0],
+    'Udupi': [27.6, 1.1, 4000.0, 420.0, 83.0, 5.0],
+    'Uttara Kannada': [25.0, 1.5, 2900.0, 300.0, 80.0, 6.0],
+    'Vijayapura': [27.2, 2.0, 580.0, 80.0, 48.0, 5.0],
+    'Vijayanagara': [27.9, 1.9, 625.0, 85.0, 52.0, 5.0],
+    'Yadgir': [28.3, 2.0, 680.0, 95.0, 50.0, 5.0]
 }
 
 # District crop probabilities
 crop_probs = {
     'Bagalkot': (['Corn', 'Wheat', 'Vegetables', 'Rice', 'Soybeans'], [0.40, 0.30, 0.20, 0.05, 0.05]),
-    'Vijayapura': (['Corn', 'Wheat', 'Vegetables', 'Rice', 'Soybeans'], [0.35, 0.40, 0.20, 0.02, 0.03]),
+    'Bangalore Rural': (['Vegetables', 'Rice', 'Corn', 'Wheat', 'Soybeans'], [0.60, 0.15, 0.15, 0.05, 0.05]),
+    'Bangalore Urban': (['Vegetables', 'Rice', 'Corn', 'Wheat', 'Soybeans'], [0.70, 0.10, 0.10, 0.05, 0.05]),
     'Belagavi': (['Rice', 'Vegetables', 'Soybeans', 'Wheat', 'Corn'], [0.35, 0.35, 0.20, 0.05, 0.05]),
-    'Dharwad': (['Wheat', 'Corn', 'Soybeans', 'Vegetables', 'Rice'], [0.30, 0.30, 0.30, 0.05, 0.05]),
-    'Raichur': (['Rice', 'Corn', 'Vegetables', 'Wheat', 'Soybeans'], [0.65, 0.20, 0.10, 0.03, 0.02]),
-    'Koppal': (['Corn', 'Vegetables', 'Rice', 'Wheat', 'Soybeans'], [0.50, 0.30, 0.10, 0.05, 0.05]),
     'Ballari': (['Rice', 'Corn', 'Vegetables', 'Wheat', 'Soybeans'], [0.45, 0.45, 0.05, 0.03, 0.02]),
-    'Tumakuru': (['Vegetables', 'Rice', 'Corn', 'Wheat', 'Soybeans'], [0.60, 0.20, 0.10, 0.05, 0.05]),
+    'Bidar': (['Soybeans', 'Wheat', 'Corn', 'Vegetables', 'Rice'], [0.40, 0.30, 0.20, 0.05, 0.05]),
+    'Chamarajanagar': (['Vegetables', 'Corn', 'Rice', 'Wheat', 'Soybeans'], [0.50, 0.30, 0.10, 0.05, 0.05]),
+    'Chikkaballapur': (['Vegetables', 'Corn', 'Wheat', 'Rice', 'Soybeans'], [0.60, 0.20, 0.10, 0.05, 0.05]),
+    'Chikkamagaluru': (['Vegetables', 'Rice', 'Corn', 'Soybeans', 'Wheat'], [0.70, 0.15, 0.10, 0.05, 0.00]),
+    'Chitradurga': (['Corn', 'Rice', 'Vegetables', 'Soybeans', 'Wheat'], [0.45, 0.20, 0.20, 0.10, 0.05]),
+    'Dakshina Kannada': (['Vegetables', 'Rice', 'Corn', 'Wheat', 'Soybeans'], [0.80, 0.20, 0.00, 0.00, 0.00]),
+    'Davanagere': (['Rice', 'Corn', 'Vegetables', 'Soybeans', 'Wheat'], [0.40, 0.40, 0.10, 0.05, 0.05]),
+    'Dharwad': (['Wheat', 'Corn', 'Soybeans', 'Vegetables', 'Rice'], [0.30, 0.30, 0.30, 0.05, 0.05]),
+    'Gadag': (['Wheat', 'Corn', 'Soybeans', 'Vegetables', 'Rice'], [0.35, 0.35, 0.20, 0.05, 0.05]),
+    'Kalaburagi': (['Corn', 'Wheat', 'Vegetables', 'Rice', 'Soybeans'], [0.45, 0.35, 0.10, 0.05, 0.05]),
+    'Hassan': (['Vegetables', 'Rice', 'Corn', 'Soybeans', 'Wheat'], [0.50, 0.25, 0.15, 0.05, 0.05]),
+    'Haveri': (['Corn', 'Wheat', 'Soybeans', 'Vegetables', 'Rice'], [0.40, 0.25, 0.20, 0.10, 0.05]),
+    'Kodagu': (['Vegetables', 'Rice', 'Corn', 'Wheat', 'Soybeans'], [0.85, 0.15, 0.00, 0.00, 0.00]),
+    'Kolar': (['Vegetables', 'Corn', 'Rice', 'Wheat', 'Soybeans'], [0.65, 0.20, 0.05, 0.05, 0.05]),
+    'Koppal': (['Corn', 'Vegetables', 'Rice', 'Wheat', 'Soybeans'], [0.50, 0.30, 0.10, 0.05, 0.05]),
+    'Mandya': (['Rice', 'Vegetables', 'Corn', 'Wheat', 'Soybeans'], [0.55, 0.25, 0.15, 0.03, 0.02]),
     'Mysuru': (['Rice', 'Vegetables', 'Corn', 'Wheat', 'Soybeans'], [0.40, 0.40, 0.10, 0.05, 0.05]),
-    'Dakshina Kannada': (['Vegetables', 'Rice', 'Corn', 'Wheat', 'Soybeans'], [0.80, 0.20, 0.00, 0.00, 0.00])
+    'Raichur': (['Rice', 'Corn', 'Vegetables', 'Wheat', 'Soybeans'], [0.65, 0.20, 0.10, 0.03, 0.02]),
+    'Ramanagara': (['Vegetables', 'Rice', 'Corn', 'Wheat', 'Soybeans'], [0.60, 0.15, 0.15, 0.05, 0.05]),
+    'Shivamogga': (['Rice', 'Vegetables', 'Corn', 'Wheat', 'Soybeans'], [0.60, 0.30, 0.05, 0.03, 0.02]),
+    'Tumakuru': (['Vegetables', 'Rice', 'Corn', 'Wheat', 'Soybeans'], [0.60, 0.20, 0.10, 0.05, 0.05]),
+    'Udupi': (['Vegetables', 'Rice', 'Corn', 'Wheat', 'Soybeans'], [0.85, 0.15, 0.00, 0.00, 0.00]),
+    'Uttara Kannada': (['Vegetables', 'Rice', 'Corn', 'Wheat', 'Soybeans'], [0.75, 0.25, 0.00, 0.00, 0.00]),
+    'Vijayapura': (['Corn', 'Wheat', 'Vegetables', 'Rice', 'Soybeans'], [0.35, 0.40, 0.20, 0.02, 0.03]),
+    'Vijayanagara': (['Rice', 'Corn', 'Vegetables', 'Wheat', 'Soybeans'], [0.45, 0.45, 0.05, 0.03, 0.02]),
+    'Yadgir': (['Corn', 'Rice', 'Vegetables', 'Wheat', 'Soybeans'], [0.40, 0.40, 0.10, 0.05, 0.05])
 }
 
 # Carbon footprint calculation parameters (matches data_generator.py)

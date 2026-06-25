@@ -6,17 +6,17 @@ This report summarizes the comparative performance of Machine Learning models tr
 
 | Model Name | Mean Absolute Error (MAE) | Root Mean Squared Error (RMSE) | R-squared ($R^2$) |
 | :--- | :---: | :---: | :---: |
-| Linear Regression | 61.40 | 83.41 | 0.9686 |
-| Random Forest | 25.17 | 32.91 | 0.9951 |
-| XGBoost | 23.69 | 30.28 | 0.9959 |
-| XGBoost (Tuned) | 22.15 | 27.97 | 0.9965 |
+| Linear Regression | 59.58 | 81.34 | 0.9689 |
+| Random Forest | 24.19 | 31.26 | 0.9954 |
+| XGBoost | 22.43 | 28.52 | 0.9962 |
+| XGBoost (Tuned) | 21.36 | 27.06 | 0.9966 |
 
 ## 2. Best Model Selection
 
 *   **Best Model**: **XGBoost**
 *   **Selected Parameters**:
 ```python
-{'regressor__learning_rate': 0.07, 'regressor__max_depth': 5, 'regressor__n_estimators': 300, 'regressor__subsample': 0.8}
+{'regressor__learning_rate': 0.07, 'regressor__max_depth': 6, 'regressor__n_estimators': 300, 'regressor__subsample': 0.8}
 ```
 
 ## 3. Key Findings

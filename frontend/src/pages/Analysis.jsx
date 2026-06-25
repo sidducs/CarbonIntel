@@ -6,6 +6,18 @@ import PageLayout from "../components/PageLayout";
 import SectionHeader from "../components/SectionHeader";
 import DashboardCard from "../components/DashboardCard";
 import EmptyState from "../components/EmptyState";
+import { fetchModelMetrics } from "../services/api";
+
+const featureDescriptions = {
+  "Fertilizer_Amount": "Direct control on synthetic N₂O soil emissions.",
+  "Crop_Type": "Baseline biological crop emission factors.",
+  "N_Content": "Nitrogen content input driving volatilization emissions.",
+  "SOC": "Primary sequestration offset (carbon sink) driver.",
+  "pH": "Acidic/alkaline nutrient binding and volatilization scaling.",
+  "Rainfall": "Volatilization & nutrient leaching rates.",
+  "Temperature": "Temperature scaling of organic matter decomposition.",
+  "Humidity": "Humidity scaling of relative transpiration and decay."
+};
 
 function Analysis() {
   const [result, setResult] = useState(() => {
@@ -25,6 +37,33 @@ function Analysis() {
       return null;
     }
   });
+
+  const [metrics, setMetrics] = useState(null);
+  const [loadingMetrics, setLoadingMetrics] = useState(true);
+
+  // Fetch real-time model metrics from backend
+  useEffect(() => {
+    let active = true;
+    const loadMetrics = async () => {
+      try {
+        setLoadingMetrics(true);
+        const data = await fetchModelMetrics();
+        if (active) {
+          setMetrics(data);
+        }
+      } catch (err) {
+        console.error("Failed to load model metrics from API:", err);
+      } finally {
+        if (active) {
+          setLoadingMetrics(false);
+        }
+      }
+    };
+    loadMetrics();
+    return () => {
+      active = false;
+    };
+  }, []);
 
   // Listen to storage events or other changes to keep in sync
   useEffect(() => {
@@ -46,21 +85,38 @@ function Analysis() {
     };
   }, []);
 
-  const modelStats = [
-    { name: "Model Type", value: "XGBoost Regressor" },
-    { name: "Validation R² Score", value: "0.9945" },
-    { name: "Mean Absolute Error (MAE)", value: "12.48 kg CO₂e" },
-    { name: "Root Mean Squared Error (RMSE)", value: "16.92 kg CO₂e" },
-    { name: "Training Set Size", value: "10,000 samples" }
-  ];
+  // Format real-time parameters dynamically
+  const modelStats = metrics
+    ? [
+        { name: "Model Type", value: metrics.best_model.name },
+        { name: "Validation R² Score", value: metrics.best_model.r2.toString() },
+        { name: "Mean Absolute Error (MAE)", value: `${metrics.best_model.mae.toFixed(2)} kg CO₂e` },
+        { name: "Root Mean Squared Error (RMSE)", value: `${metrics.best_model.rmse.toFixed(2)} kg CO₂e` },
+        { name: "Training Corpus Size", value: `${metrics.dataset.total_rows.toLocaleString()} rows` }
+      ]
+    : [
+        { name: "Model Type", value: "Tuned XGBoost Regressor" },
+        { name: "Validation R² Score", value: "0.9966" },
+        { name: "Mean Absolute Error (MAE)", value: "21.36 kg CO₂e" },
+        { name: "Root Mean Squared Error (RMSE)", value: "27.06 kg CO₂e" },
+        { name: "Training Corpus Size", value: "77,811 rows" }
+      ];
 
-  const features = [
-    { name: "Fertilizer Amount", importance: 42, description: "Direct control on synthetic N₂O soil emissions." },
-    { name: "Soil Organic Carbon (SOC)", importance: 25, description: "Primary sequestration offset driver." },
-    { name: "Crop Type", importance: 15, description: "Baseline biological crop emission factors." },
-    { name: "Annual Rainfall", importance: 10, description: "Volatilization & nutrient leaching rates." },
-    { name: "Soil pH Level", importance: 8, description: "Acidic/alkaline nutrient binding effects." }
-  ];
+  const features = metrics
+    ? Object.entries(metrics.feature_importances)
+        .map(([name, imp]) => ({
+          name: name.replace("_", " "),
+          importance: Math.round(imp * 100),
+          description: featureDescriptions[name] || "Regional soil/climatological observation input."
+        }))
+        .sort((a, b) => b.importance - a.importance)
+    : [
+        { name: "Fertilizer Amount", importance: 35, description: "Direct control on synthetic N₂O soil emissions." },
+        { name: "Crop Type", importance: 28, description: "Baseline biological crop emission factors." },
+        { name: "N Content", importance: 12, description: "Nitrogen content input driving volatilization emissions." },
+        { name: "Soil Organic Carbon (SOC)", importance: 10, description: "Primary sequestration offset (carbon sink) driver." },
+        { name: "Soil pH Level", importance: 7, description: "Acidic/alkaline nutrient binding and volatilization scaling." }
+      ];
 
   return (
     <PageLayout

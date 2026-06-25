@@ -115,9 +115,10 @@ function PredictionForm({ onSubmit, onReset, loading, apiError, clearApiError, r
   const isLocationSelected =
     (locationMode === "district" && !!formData.selectedDistrict) ||
     (locationMode === "search" && !!formData.Location) ||
-    (locationMode === "map" && !!formData.ReadableAddress && formData.ReadableAddress !== initialDefaults.ReadableAddress);
+    (locationMode === "map" && !!formData.ReadableAddress && formData.ReadableAddress !== initialDefaults.ReadableAddress) ||
+    (locationMode === "manual");
 
-  const nearestLab = isLocationSelected
+  const nearestLab = isLocationSelected && locationMode !== "manual"
     ? findNearestLab(Number(formData.Latitude), Number(formData.Longitude))
     : null;
 
@@ -125,7 +126,8 @@ function PredictionForm({ onSubmit, onReset, loading, apiError, clearApiError, r
   const locationMethods = [
     { id: "district", label: "Karnataka District", icon: "🏢" },
     { id: "search", label: "Search Address", icon: "🔍" },
-    { id: "map", label: "Select on Map", icon: "🗺️" }
+    { id: "map", label: "Select on Map", icon: "🗺️" },
+    { id: "manual", label: "Manual Input", icon: "✍️" }
   ];
 
   return (
@@ -300,6 +302,13 @@ function PredictionForm({ onSubmit, onReset, loading, apiError, clearApiError, r
                   weatherStatus={weatherStatus}
                   fieldsOnly={false}
                 />
+              </div>
+            )}
+
+            {locationMode === "manual" && (
+              <div className="p-4 bg-emerald-50 dark:bg-emerald-950/20 border border-emerald-100 dark:border-emerald-900/30 rounded-xl text-xs text-emerald-800 dark:text-emerald-450 font-bold flex items-center gap-2">
+                <span>✍️</span>
+                <span>Manual Mode Active: Fill in all the soil properties, climate conditions, and crop details below manually.</span>
               </div>
             )}
           </div>

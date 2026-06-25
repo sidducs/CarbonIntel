@@ -1,0 +1,57 @@
+{
+  "dataset": {
+    "total_rows": 77811,
+    "train_rows": 62248,
+    "test_rows": 15563,
+    "empirical_rows": 15811,
+    "synthesized_rows": 62000
+  },
+  "metrics": [
+    {
+      "model": "Linear Regression",
+      "mae": 59.58,
+      "rmse": 81.34,
+      "r2": 0.9689
+    },
+    {
+      "model": "Random Forest",
+      "mae": 24.19,
+      "rmse": 31.26,
+      "r2": 0.9954
+    },
+    {
+      "model": "XGBoost",
+      "mae": 22.43,
+      "rmse": 28.52,
+      "r2": 0.9962
+    },
+    {
+      "model": "XGBoost (Tuned)",
+      "mae": 21.36,
+      "rmse": 27.06,
+      "r2": 0.9966
+    }
+  ],
+  "best_model": {
+    "name": "XGBoost (Tuned)",
+    "r2": 0.9966,
+    "mae": 21.36,
+    "rmse": 27.06,
+    "hyperparameters": {
+      "learning_rate": 0.07,
+      "max_depth": 6,
+      "n_estimators": 300,
+      "subsample": 0.8
+    }
+  },
+  "feature_importances": {
+    "Fertilizer_Amount": 0.354,
+    "Crop_Type": 0.282,
+    "N_Content": 0.124,
+    "SOC": 0.098,
+    "pH": 0.065,
+    "Rainfall": 0.042,
+    "Temperature": 0.021,
+    "Humidity": 0.014
+  }
+}
